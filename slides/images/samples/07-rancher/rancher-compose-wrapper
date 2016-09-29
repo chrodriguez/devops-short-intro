@@ -1,5 +1,0 @@
-#!/bin/bash
-export RANCHER_ACCESS_KEY=$MW_RANCHER_KEY
-export RANCHER_URL=$MW_RANCHER_URL
-export RANCHER_SECRET_KEY=$MW_RANCHER_SECRET_KEY
-rancher-compose $@
