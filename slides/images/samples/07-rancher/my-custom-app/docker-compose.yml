@@ -1,0 +1,5 @@
+my-app:
+  ports:
+    - 8080:80/tcp
+  image: nginx:1.11.1
+  command: /bin/bash -c "echo 'Mikroways, soluciones que revolucionan' > /usr/share/nginx/html/index.html && nginx -g 'daemon off;'"

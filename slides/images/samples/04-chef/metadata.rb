@@ -1,0 +1,11 @@
+name             'web-server'
+maintainer       'Christian Rodriguez'
+maintainer_email 'christian.rodriguez@mikroways.net'
+license          'All rights reserved'
+description      'Installs/Configures web-server'
+long_description 'Installs/Configures web-server'
+version          '0.1.0'
+issues_url       'http://my-issues.com'
+source_url       'https://github.com/my-cookbook'
+
+depends 'apt'

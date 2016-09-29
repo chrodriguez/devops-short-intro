@@ -1,0 +1,26 @@
+I, [2016-06-21T00:15:18.680853 #12316]  INFO -- default-ubuntu-1404: -----> Verifying <default-ubuntu-1404>...
+W, [2016-06-21T00:15:18.681260 #12316]  WARN -- default-ubuntu-1404: Running legacy verify for 'Docker' Driver
+I, [2016-06-21T00:15:18.681423 #12316]  INFO -- default-ubuntu-1404: Preparing files for transfer
+I, [2016-06-21T00:15:19.024232 #12316]  INFO -- default-ubuntu-1404: Removing /tmp/verifier/suites/serverspec
+I, [2016-06-21T00:15:19.037432 #12316]  INFO -- default-ubuntu-1404: Transferring files to <default-ubuntu-1404>
+I, [2016-06-21T00:15:19.365233 #12316]  INFO -- default-ubuntu-1404: -----> Running serverspec test suite
+I, [2016-06-21T00:15:19.457903 #12316]  INFO -- default-ubuntu-1404: /opt/chef/embedded/bin/ruby -I/tmp/verifier/suites/serverspec -I/tmp/verifier/gems/gems/rspec-support-3.4.1/lib:/tmp/verifier/gems/gems/rspec-core-3.4.4/lib /opt/chef/embedded/bin/rspec --pattern /tmp/verifier/suites/serverspec/\*\*/\*_spec.rb --color --format documentation --default-path /tmp/verifier/suites/serverspec
+I, [2016-06-21T00:15:19.921215 #12316]  INFO -- default-ubuntu-1404: 
+I, [2016-06-21T00:15:19.921307 #12316]  INFO -- default-ubuntu-1404: web-server::default
+I, [2016-06-21T00:15:19.921570 #12316]  INFO -- default-ubuntu-1404:   Package "nginx"
+I, [2016-06-21T00:15:20.133428 #12316]  INFO -- default-ubuntu-1404: [32m    should be installed[0m
+I, [2016-06-21T00:15:20.133622 #12316]  INFO -- default-ubuntu-1404:   Service "nginx"
+I, [2016-06-21T00:15:20.149364 #12316]  INFO -- default-ubuntu-1404: [32m    should be enabled[0m
+I, [2016-06-21T00:15:20.149535 #12316]  INFO -- default-ubuntu-1404:   Port "80"
+I, [2016-06-21T00:15:20.162271 #12316]  INFO -- default-ubuntu-1404: [32m    should be listening[0m
+I, [2016-06-21T00:15:20.162625 #12316]  INFO -- default-ubuntu-1404:   File "/etc/nginx/sites-enabled/default"
+I, [2016-06-21T00:15:20.162913 #12316]  INFO -- default-ubuntu-1404:     content
+I, [2016-06-21T00:15:20.178763 #12316]  INFO -- default-ubuntu-1404: [32m      should eq "server {\n  listen 80 default_server;\n  root /var/www;\n  index index.html index.htm;\n  server_name www.mikroways.net;\n\n  location / {\n    try_files $uri $uri/ =404;\n  }\n\n}\n"[0m
+I, [2016-06-21T00:15:20.179263 #12316]  INFO -- default-ubuntu-1404:   File "/var/www/index.html"
+I, [2016-06-21T00:15:20.180112 #12316]  INFO -- default-ubuntu-1404:     content
+I, [2016-06-21T00:15:20.191719 #12316]  INFO -- default-ubuntu-1404: [32m      should contain "Hola mundo!"[0m
+I, [2016-06-21T00:15:20.192256 #12316]  INFO -- default-ubuntu-1404: 
+I, [2016-06-21T00:15:20.192344 #12316]  INFO -- default-ubuntu-1404: Finished in 0.27075 seconds (files took 0.41644 seconds to load)
+I, [2016-06-21T00:15:20.192407 #12316]  INFO -- default-ubuntu-1404: [32m5 examples, 0 failures[0m
+I, [2016-06-21T00:15:20.192733 #12316]  INFO -- default-ubuntu-1404: 
+I, [2016-06-21T00:15:20.242486 #12316]  INFO -- default-ubuntu-1404: Finished verifying <default-ubuntu-1404> (0m1.56s).

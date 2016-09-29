@@ -1,0 +1,7 @@
+---
+ssh_key: "/home/car/Trabajo/mikroways/cursos/devops-intro/images/samples/04-chef/.kitchen/docker_id_rsa"
+image_id: a2ef976d06d0
+container_id: b6a4d4bffd7ccd4a0b4b0ea05bafd005a5b666aa3da0992e4046ab0e9388c317
+hostname: localhost
+port: 32774
+last_action: verify

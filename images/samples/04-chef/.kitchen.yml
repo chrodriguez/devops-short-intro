@@ -1,0 +1,23 @@
+---
+driver:
+  name: docker
+
+provisioner:
+  name: chef_zero
+
+driver_config:
+  use_sudo: false
+
+platforms:
+  - name: debian-7
+    run_list:
+      - recipe[apt]
+      - recipe[netstat]
+  - name: ubuntu-14.04
+    run_list:
+      - recipe[apt]
+      - recipe[netstat]
+suites:
+  - name: default
+    run_list:
+      - recipe[web-server]

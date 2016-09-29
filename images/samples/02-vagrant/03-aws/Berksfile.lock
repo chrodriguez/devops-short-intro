@@ -1,0 +1,17 @@
+DEPENDENCIES
+  my_rancher
+    path: .
+    metadata: true
+
+GRAPH
+  apt (4.0.0)
+    compat_resource (>= 0.0.0)
+  chef-apt-docker (1.0.0)
+    apt (>= 2.9.0)
+  compat_resource (12.10.6)
+  docker (2.9.0)
+    compat_resource (>= 12.9.0)
+  my_rancher (1.0.0)
+    apt (>= 0.0.0)
+    chef-apt-docker (~> 1.0.0)
+    docker (~> 2.0)

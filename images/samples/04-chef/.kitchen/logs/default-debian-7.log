@@ -1,0 +1,26 @@
+I, [2016-06-21T00:15:17.151214 #12316]  INFO -- default-debian-7: -----> Verifying <default-debian-7>...
+W, [2016-06-21T00:15:17.152563 #12316]  WARN -- default-debian-7: Running legacy verify for 'Docker' Driver
+I, [2016-06-21T00:15:17.153172 #12316]  INFO -- default-debian-7: Preparing files for transfer
+I, [2016-06-21T00:15:17.484016 #12316]  INFO -- default-debian-7: Removing /tmp/verifier/suites/serverspec
+I, [2016-06-21T00:15:17.494599 #12316]  INFO -- default-debian-7: Transferring files to <default-debian-7>
+I, [2016-06-21T00:15:17.831453 #12316]  INFO -- default-debian-7: -----> Running serverspec test suite
+I, [2016-06-21T00:15:17.924248 #12316]  INFO -- default-debian-7: /opt/chef/embedded/bin/ruby -I/tmp/verifier/suites/serverspec -I/tmp/verifier/gems/gems/rspec-support-3.4.1/lib:/tmp/verifier/gems/gems/rspec-core-3.4.4/lib /opt/chef/embedded/bin/rspec --pattern /tmp/verifier/suites/serverspec/\*\*/\*_spec.rb --color --format documentation --default-path /tmp/verifier/suites/serverspec
+I, [2016-06-21T00:15:18.377720 #12316]  INFO -- default-debian-7: 
+I, [2016-06-21T00:15:18.377805 #12316]  INFO -- default-debian-7: web-server::default
+I, [2016-06-21T00:15:18.378017 #12316]  INFO -- default-debian-7:   Package "nginx"
+I, [2016-06-21T00:15:18.573508 #12316]  INFO -- default-debian-7: [32m    should be installed[0m
+I, [2016-06-21T00:15:18.574004 #12316]  INFO -- default-debian-7:   Service "nginx"
+I, [2016-06-21T00:15:18.583802 #12316]  INFO -- default-debian-7: [32m    should be enabled[0m
+I, [2016-06-21T00:15:18.584151 #12316]  INFO -- default-debian-7:   Port "80"
+I, [2016-06-21T00:15:18.597366 #12316]  INFO -- default-debian-7: [32m    should be listening[0m
+I, [2016-06-21T00:15:18.597709 #12316]  INFO -- default-debian-7:   File "/etc/nginx/sites-enabled/default"
+I, [2016-06-21T00:15:18.598124 #12316]  INFO -- default-debian-7:     content
+I, [2016-06-21T00:15:18.614072 #12316]  INFO -- default-debian-7: [32m      should eq "server {\n  listen 80 default_server;\n  root /var/www;\n  index index.html index.htm;\n  server_name www.mikroways.net;\n\n  location / {\n    try_files $uri $uri/ =404;\n  }\n\n}\n"[0m
+I, [2016-06-21T00:15:18.614505 #12316]  INFO -- default-debian-7:   File "/var/www/index.html"
+I, [2016-06-21T00:15:18.614922 #12316]  INFO -- default-debian-7:     content
+I, [2016-06-21T00:15:18.626467 #12316]  INFO -- default-debian-7: [32m      should contain "Hola mundo!"[0m
+I, [2016-06-21T00:15:18.627143 #12316]  INFO -- default-debian-7: 
+I, [2016-06-21T00:15:18.627257 #12316]  INFO -- default-debian-7: Finished in 0.24873 seconds (files took 0.39998 seconds to load)
+I, [2016-06-21T00:15:18.627339 #12316]  INFO -- default-debian-7: [32m5 examples, 0 failures[0m
+I, [2016-06-21T00:15:18.627736 #12316]  INFO -- default-debian-7: 
+I, [2016-06-21T00:15:18.679925 #12316]  INFO -- default-debian-7: Finished verifying <default-debian-7> (0m1.53s).

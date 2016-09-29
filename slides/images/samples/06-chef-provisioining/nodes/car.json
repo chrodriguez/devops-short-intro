@@ -1,0 +1,6612 @@
+{
+  "name": "car",
+  "normal": {
+    "tags": [
+
+    ]
+  },
+  "automatic": {
+    "root_group": "root",
+    "languages": {
+      "mono": {
+        "version": "3.2.8",
+        "builddate": "3.2.8+dfsg-4ubuntu1.1) Copyright (C) "
+      },
+      "java": {
+        "version": "1.8.0_91",
+        "runtime": {
+          "name": "Java(TM) SE Runtime Environment",
+          "build": "1.8.0_91-b14"
+        },
+        "hotspot": {
+          "name": "Java HotSpot(TM) 64-Bit Server VM",
+          "build": "25.91-b14, mixed mode"
+        }
+      },
+      "python": {
+        "version": "2.7.6",
+        "builddate": "Jun 22 2015, 17:58:13"
+      },
+      "perl": {
+        "version": "5.18.2",
+        "archname": "x86_64-linux-gnu-thread-multi"
+      },
+      "c": {
+        "gcc": {
+          "version": "4.8.4",
+          "description": "gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) "
+        }
+      },
+      "ruby": {
+        "platform": "x86_64-linux",
+        "version": "2.1.6",
+        "release_date": "2015-04-13",
+        "target": "x86_64-unknown-linux-gnu",
+        "target_cpu": "x86_64",
+        "target_vendor": "unknown",
+        "target_os": "linux",
+        "host": "x86_64-unknown-linux-gnu",
+        "host_cpu": "x86_64",
+        "host_os": "linux-gnu",
+        "host_vendor": "unknown",
+        "bin_dir": "/opt/chefdk/embedded/bin",
+        "ruby_bin": "/opt/chefdk/embedded/bin/ruby",
+        "gems_dir": "/opt/chefdk/embedded/lib/ruby/gems/2.1.0",
+        "gem_bin": "/opt/chefdk/embedded/bin/gem"
+      },
+      "go": {
+        "version": "1.6"
+      }
+    },
+    "kernel": {
+      "name": "Linux",
+      "release": "3.13.0-88-generic",
+      "version": "#135-Ubuntu SMP Wed Jun 8 21:10:42 UTC 2016",
+      "machine": "x86_64",
+      "processor": "x86_64",
+      "os": "GNU/Linux",
+      "modules": {
+        "alx": {
+          "size": "32452",
+          "refcount": "0"
+        },
+        "mdio": {
+          "size": "13807",
+          "refcount": "1"
+        },
+        "xt_nat": {
+          "size": "12681",
+          "refcount": "2"
+        },
+        "veth": {
+          "size": "13331",
+          "refcount": "0"
+        },
+        "vboxpci": {
+          "size": "23116",
+          "refcount": "0"
+        },
+        "vboxnetadp": {
+          "size": "25813",
+          "refcount": "0"
+        },
+        "vboxnetflt": {
+          "size": "27880",
+          "refcount": "3"
+        },
+        "vboxdrv": {
+          "size": "446786",
+          "refcount": "7"
+        },
+        "xt_addrtype": {
+          "size": "12635",
+          "refcount": "2"
+        },
+        "xt_conntrack": {
+          "size": "12760",
+          "refcount": "3"
+        },
+        "aufs": {
+          "size": "202738",
+          "refcount": "38"
+        },
+        "pci_stub": {
+          "size": "12622",
+          "refcount": "1"
+        },
+        "ip6table_filter": {
+          "size": "12815",
+          "refcount": "0"
+        },
+        "ip6_tables": {
+          "size": "27025",
+          "refcount": "1"
+        },
+        "ebtable_nat": {
+          "size": "12807",
+          "refcount": "0"
+        },
+        "ebtables": {
+          "size": "30913",
+          "refcount": "1"
+        },
+        "xt_CHECKSUM": {
+          "size": "12549",
+          "refcount": "1"
+        },
+        "iptable_mangle": {
+          "size": "12695",
+          "refcount": "1"
+        },
+        "ipt_MASQUERADE": {
+          "size": "12880",
+          "refcount": "6"
+        },
+        "iptable_nat": {
+          "size": "13011",
+          "refcount": "1"
+        },
+        "nf_conntrack_ipv4": {
+          "size": "15012",
+          "refcount": "4"
+        },
+        "nf_defrag_ipv4": {
+          "size": "12758",
+          "refcount": "1"
+        },
+        "nf_nat_ipv4": {
+          "size": "13263",
+          "refcount": "1"
+        },
+        "nf_nat": {
+          "size": "21841",
+          "refcount": "4"
+        },
+        "nf_conntrack": {
+          "size": "97201",
+          "refcount": "6"
+        },
+        "xt_tcpudp": {
+          "size": "12884",
+          "refcount": "11"
+        },
+        "bridge": {
+          "size": "110925",
+          "refcount": "0"
+        },
+        "stp": {
+          "size": "12976",
+          "refcount": "1"
+        },
+        "llc": {
+          "size": "14552",
+          "refcount": "2"
+        },
+        "iptable_filter": {
+          "size": "12810",
+          "refcount": "1"
+        },
+        "ip_tables": {
+          "size": "27240",
+          "refcount": "3"
+        },
+        "x_tables": {
+          "size": "34059",
+          "refcount": "12"
+        },
+        "rfcomm": {
+          "size": "69160",
+          "refcount": "8"
+        },
+        "bnep": {
+          "size": "19624",
+          "refcount": "2"
+        },
+        "nfsd": {
+          "size": "284396",
+          "refcount": "2"
+        },
+        "auth_rpcgss": {
+          "size": "59309",
+          "refcount": "1"
+        },
+        "nfs_acl": {
+          "size": "12837",
+          "refcount": "1"
+        },
+        "nfs": {
+          "size": "240815",
+          "refcount": "0"
+        },
+        "binfmt_misc": {
+          "size": "17468",
+          "refcount": "1"
+        },
+        "lockd": {
+          "size": "93913",
+          "refcount": "2"
+        },
+        "sunrpc": {
+          "size": "289217",
+          "refcount": "6"
+        },
+        "fscache": {
+          "size": "63988",
+          "refcount": "1"
+        },
+        "snd_hda_codec_hdmi": {
+          "size": "46368",
+          "refcount": "1"
+        },
+        "snd_hda_codec_idt": {
+          "size": "55084",
+          "refcount": "1"
+        },
+        "dell_wmi": {
+          "size": "12761",
+          "refcount": "0"
+        },
+        "sparse_keymap": {
+          "size": "13948",
+          "refcount": "1"
+        },
+        "snd_hda_intel": {
+          "size": "56611",
+          "refcount": "3"
+        },
+        "snd_hda_codec": {
+          "size": "193017",
+          "refcount": "3"
+        },
+        "dell_laptop": {
+          "size": "18133",
+          "refcount": "0"
+        },
+        "dcdbas": {
+          "size": "14928",
+          "refcount": "1"
+        },
+        "snd_hwdep": {
+          "size": "13602",
+          "refcount": "1"
+        },
+        "snd_pcm": {
+          "size": "102099",
+          "refcount": "3"
+        },
+        "intel_rapl": {
+          "size": "18773",
+          "refcount": "0"
+        },
+        "x86_pkg_temp_thermal": {
+          "size": "14205",
+          "refcount": "0"
+        },
+        "intel_powerclamp": {
+          "size": "14705",
+          "refcount": "0"
+        },
+        "snd_page_alloc": {
+          "size": "18710",
+          "refcount": "2"
+        },
+        "coretemp": {
+          "size": "13435",
+          "refcount": "0"
+        },
+        "kvm_intel": {
+          "size": "143187",
+          "refcount": "0"
+        },
+        "kvm": {
+          "size": "455843",
+          "refcount": "1"
+        },
+        "crct10dif_pclmul": {
+          "size": "14289",
+          "refcount": "0"
+        },
+        "crc32_pclmul": {
+          "size": "13113",
+          "refcount": "0"
+        },
+        "snd_seq_midi": {
+          "size": "13324",
+          "refcount": "0"
+        },
+        "snd_seq_midi_event": {
+          "size": "14899",
+          "refcount": "1"
+        },
+        "dm_multipath": {
+          "size": "22873",
+          "refcount": "0"
+        },
+        "snd_rawmidi": {
+          "size": "30731",
+          "refcount": "1"
+        },
+        "wl": {
+          "size": "6367819",
+          "refcount": "0"
+        },
+        "scsi_dh": {
+          "size": "14882",
+          "refcount": "1"
+        },
+        "aesni_intel": {
+          "size": "55624",
+          "refcount": "0"
+        },
+        "aes_x86_64": {
+          "size": "17131",
+          "refcount": "1"
+        },
+        "lrw": {
+          "size": "13286",
+          "refcount": "1"
+        },
+        "gf128mul": {
+          "size": "14951",
+          "refcount": "1"
+        },
+        "glue_helper": {
+          "size": "13990",
+          "refcount": "1"
+        },
+        "ablk_helper": {
+          "size": "13597",
+          "refcount": "1"
+        },
+        "cryptd": {
+          "size": "20359",
+          "refcount": "2"
+        },
+        "nls_iso8859_1": {
+          "size": "12713",
+          "refcount": "1"
+        },
+        "btusb": {
+          "size": "32412",
+          "refcount": "0"
+        },
+        "uvcvideo": {
+          "size": "80885",
+          "refcount": "0"
+        },
+        "bluetooth": {
+          "size": "391136",
+          "refcount": "22"
+        },
+        "rts5139": {
+          "size": "327217",
+          "refcount": "0"
+        },
+        "videobuf2_vmalloc": {
+          "size": "13216",
+          "refcount": "1"
+        },
+        "videobuf2_memops": {
+          "size": "13362",
+          "refcount": "1"
+        },
+        "videobuf2_core": {
+          "size": "40664",
+          "refcount": "1"
+        },
+        "videodev": {
+          "size": "134688",
+          "refcount": "2"
+        },
+        "radeon": {
+          "size": "1522941",
+          "refcount": "1"
+        },
+        "snd_seq": {
+          "size": "61616",
+          "refcount": "2"
+        },
+        "cfg80211": {
+          "size": "496328",
+          "refcount": "1"
+        },
+        "joydev": {
+          "size": "17381",
+          "refcount": "0"
+        },
+        "snd_seq_device": {
+          "size": "14497",
+          "refcount": "3"
+        },
+        "serio_raw": {
+          "size": "13462",
+          "refcount": "0"
+        },
+        "snd_timer": {
+          "size": "29549",
+          "refcount": "2"
+        },
+        "i915": {
+          "size": "788212",
+          "refcount": "4"
+        },
+        "ttm": {
+          "size": "93424",
+          "refcount": "1"
+        },
+        "wmi": {
+          "size": "19177",
+          "refcount": "1"
+        },
+        "snd": {
+          "size": "69416",
+          "refcount": "17"
+        },
+        "drm_kms_helper": {
+          "size": "55071",
+          "refcount": "2"
+        },
+        "mac_hid": {
+          "size": "13205",
+          "refcount": "0"
+        },
+        "drm": {
+          "size": "303102",
+          "refcount": "8"
+        },
+        "lpc_ich": {
+          "size": "21080",
+          "refcount": "0"
+        },
+        "soundcore": {
+          "size": "12680",
+          "refcount": "1"
+        },
+        "mei_me": {
+          "size": "18627",
+          "refcount": "0"
+        },
+        "shpchp": {
+          "size": "37032",
+          "refcount": "0"
+        },
+        "i2c_algo_bit": {
+          "size": "13413",
+          "refcount": "2"
+        },
+        "video": {
+          "size": "19476",
+          "refcount": "1"
+        },
+        "mei": {
+          "size": "82276",
+          "refcount": "1"
+        },
+        "parport_pc": {
+          "size": "32701",
+          "refcount": "0"
+        },
+        "ppdev": {
+          "size": "17671",
+          "refcount": "0"
+        },
+        "lp": {
+          "size": "17759",
+          "refcount": "0"
+        },
+        "parport": {
+          "size": "42348",
+          "refcount": "3"
+        },
+        "btrfs": {
+          "size": "840205",
+          "refcount": "0"
+        },
+        "xor": {
+          "size": "21411",
+          "refcount": "1"
+        },
+        "raid6_pq": {
+          "size": "97812",
+          "refcount": "1"
+        },
+        "libcrc32c": {
+          "size": "12644",
+          "refcount": "1"
+        },
+        "ahci": {
+          "size": "34091",
+          "refcount": "5"
+        },
+        "psmouse": {
+          "size": "106692",
+          "refcount": "0"
+        },
+        "libahci": {
+          "size": "32716",
+          "refcount": "1"
+        }
+      }
+    },
+    "os": "linux",
+    "os_version": "3.13.0-88-generic",
+    "lsb": {
+      "id": "Ubuntu",
+      "release": "14.04",
+      "codename": "trusty",
+      "description": "Ubuntu 14.04.4 LTS"
+    },
+    "platform": "ubuntu",
+    "platform_version": "14.04",
+    "platform_family": "debian",
+    "virtualization": {
+      "systems": {
+        "vbox": "host",
+        "kvm": "host"
+      },
+      "system": "kvm",
+      "role": "host"
+    },
+    "filesystem": {
+      "udev": {
+        "kb_size": "4009224",
+        "kb_used": "12",
+        "kb_available": "4009212",
+        "percent_used": "1%",
+        "mount": "/dev",
+        "total_inodes": "1002306",
+        "inodes_used": "553",
+        "inodes_available": "1001753",
+        "inodes_percent_used": "1%",
+        "fs_type": "devtmpfs",
+        "mount_options": [
+          "rw",
+          "mode=0755"
+        ]
+      },
+      "tmpfs": {
+        "kb_size": "804048",
+        "kb_used": "1844",
+        "kb_available": "802204",
+        "percent_used": "1%",
+        "mount": "/run",
+        "total_inodes": "1005058",
+        "inodes_used": "961",
+        "inodes_available": "1004097",
+        "inodes_percent_used": "1%",
+        "fs_type": "tmpfs",
+        "mount_options": [
+          "rw",
+          "noexec",
+          "nosuid",
+          "size=10%",
+          "mode=0755"
+        ]
+      },
+      "/dev/sdb1": {
+        "kb_size": "30643136",
+        "kb_used": "26778248",
+        "kb_available": "2285268",
+        "percent_used": "93%",
+        "mount": "/",
+        "total_inodes": "1954064",
+        "inodes_used": "1825669",
+        "inodes_available": "128395",
+        "inodes_percent_used": "94%",
+        "fs_type": "ext4",
+        "mount_options": [
+          "rw",
+          "discard",
+          "errors=remount-ro"
+        ]
+      },
+      "none": {
+        "kb_size": "23900028",
+        "kb_used": "20420772",
+        "kb_available": "2242164",
+        "percent_used": "91%",
+        "mount": "/sys/fs/pstore",
+        "total_inodes": "1525920",
+        "inodes_used": "490274",
+        "inodes_available": "1035646",
+        "inodes_percent_used": "33%",
+        "fs_type": "pstore",
+        "mount_options": [
+          "rw"
+        ]
+      },
+      "/dev/sda1": {
+        "kb_size": "37289",
+        "kb_used": "2599",
+        "kb_available": "34691",
+        "percent_used": "7%",
+        "mount": "/boot/efi",
+        "fs_type": "vfat",
+        "mount_options": [
+          "rw"
+        ]
+      },
+      "/dev/sda2": {
+        "kb_size": "23900028",
+        "kb_used": "20420772",
+        "kb_available": "2242164",
+        "percent_used": "91%",
+        "mount": "/var",
+        "total_inodes": "1525920",
+        "inodes_used": "490274",
+        "inodes_available": "1035646",
+        "inodes_percent_used": "33%",
+        "fs_type": "ext4",
+        "mount_options": [
+          "rw"
+        ]
+      },
+      "/dev/sda3": {
+        "kb_size": "448684832",
+        "kb_used": "393264844",
+        "kb_available": "32605064",
+        "percent_used": "93%",
+        "mount": "/home",
+        "total_inodes": "28499968",
+        "inodes_used": "2589875",
+        "inodes_available": "25910093",
+        "inodes_percent_used": "10%",
+        "fs_type": "ext4",
+        "mount_options": [
+          "rw"
+        ]
+      },
+      "proc": {
+        "mount": "/proc",
+        "fs_type": "proc",
+        "mount_options": [
+          "rw",
+          "noexec",
+          "nosuid",
+          "nodev"
+        ]
+      },
+      "sysfs": {
+        "mount": "/sys",
+        "fs_type": "sysfs",
+        "mount_options": [
+          "rw",
+          "noexec",
+          "nosuid",
+          "nodev"
+        ]
+      },
+      "devpts": {
+        "mount": "/dev/pts",
+        "fs_type": "devpts",
+        "mount_options": [
+          "rw",
+          "noexec",
+          "nosuid",
+          "gid=5",
+          "mode=0620"
+        ]
+      },
+      "cgroup": {
+        "mount": "/sys/fs/cgroup/hugetlb",
+        "fs_type": "cgroup",
+        "mount_options": [
+          "rw",
+          "relatime",
+          "hugetlb",
+          "release_agent=/run/cgmanager/agents/cgm-release-agent.hugetlb"
+        ]
+      },
+      "name=systemd": {
+        "mount": "/sys/fs/cgroup/systemd",
+        "fs_type": "cgroup",
+        "mount_options": [
+          "rw",
+          "relatime",
+          "release_agent=/run/cgmanager/agents/cgm-release-agent.systemd",
+          "name=systemd"
+        ]
+      },
+      "binfmt_misc": {
+        "mount": "/proc/sys/fs/binfmt_misc",
+        "fs_type": "binfmt_misc",
+        "mount_options": [
+          "rw",
+          "noexec",
+          "nosuid",
+          "nodev"
+        ]
+      },
+      "rpc_pipefs": {
+        "mount": "/run/rpc_pipefs",
+        "fs_type": "rpc_pipefs",
+        "mount_options": [
+          "rw"
+        ]
+      },
+      "lxcfs": {
+        "mount": "/var/lib/lxcfs",
+        "fs_type": "fuse.lxcfs",
+        "mount_options": [
+          "rw",
+          "nosuid",
+          "nodev",
+          "allow_other"
+        ]
+      },
+      "gvfsd-fuse": {
+        "mount": "/run/user/1000/gvfs",
+        "fs_type": "fuse.gvfsd-fuse",
+        "mount_options": [
+          "rw",
+          "nosuid",
+          "nodev",
+          "user=car"
+        ]
+      },
+      "rootfs": {
+        "mount": "/",
+        "fs_type": "rootfs",
+        "mount_options": [
+          "rw"
+        ]
+      },
+      "hugetlb": {
+        "mount": "/run/lxcfs/controllers/hugetlb",
+        "fs_type": "cgroup",
+        "mount_options": [
+          "rw",
+          "relatime",
+          "hugetlb",
+          "release_agent=/run/cgmanager/agents/cgm-release-agent.hugetlb"
+        ]
+      },
+      "perf_event": {
+        "mount": "/run/lxcfs/controllers/perf_event",
+        "fs_type": "cgroup",
+        "mount_options": [
+          "rw",
+          "relatime",
+          "perf_event",
+          "release_agent=/run/cgmanager/agents/cgm-release-agent.perf_event"
+        ]
+      },
+      "blkio": {
+        "mount": "/run/lxcfs/controllers/blkio",
+        "fs_type": "cgroup",
+        "mount_options": [
+          "rw",
+          "relatime",
+          "blkio",
+          "release_agent=/run/cgmanager/agents/cgm-release-agent.blkio"
+        ]
+      },
+      "freezer": {
+        "mount": "/run/lxcfs/controllers/freezer",
+        "fs_type": "cgroup",
+        "mount_options": [
+          "rw",
+          "relatime",
+          "freezer",
+          "release_agent=/run/cgmanager/agents/cgm-release-agent.freezer"
+        ]
+      },
+      "devices": {
+        "mount": "/run/lxcfs/controllers/devices",
+        "fs_type": "cgroup",
+        "mount_options": [
+          "rw",
+          "relatime",
+          "devices",
+          "release_agent=/run/cgmanager/agents/cgm-release-agent.devices"
+        ]
+      },
+      "memory": {
+        "mount": "/run/lxcfs/controllers/memory",
+        "fs_type": "cgroup",
+        "mount_options": [
+          "rw",
+          "relatime",
+          "memory",
+          "release_agent=/run/cgmanager/agents/cgm-release-agent.memory"
+        ]
+      },
+      "cpuacct": {
+        "mount": "/run/lxcfs/controllers/cpuacct",
+        "fs_type": "cgroup",
+        "mount_options": [
+          "rw",
+          "relatime",
+          "cpuacct",
+          "release_agent=/run/cgmanager/agents/cgm-release-agent.cpuacct"
+        ]
+      },
+      "cpu": {
+        "mount": "/run/lxcfs/controllers/cpu",
+        "fs_type": "cgroup",
+        "mount_options": [
+          "rw",
+          "relatime",
+          "cpu",
+          "release_agent=/run/cgmanager/agents/cgm-release-agent.cpu"
+        ]
+      },
+      "cpuset": {
+        "mount": "/run/lxcfs/controllers/cpuset",
+        "fs_type": "cgroup",
+        "mount_options": [
+          "rw",
+          "relatime",
+          "cpuset",
+          "release_agent=/run/cgmanager/agents/cgm-release-agent.cpuset",
+          "clone_children"
+        ]
+      },
+      "shm": {
+        "mount": "/var/lib/docker/containers/79120bc8c9e7d57bc251e34e85eb284620ca1c7ddb22a00b929e84ad6dfa0e4a/shm",
+        "fs_type": "tmpfs",
+        "mount_options": [
+          "rw",
+          "nosuid",
+          "nodev",
+          "noexec",
+          "relatime",
+          "size=65536k"
+        ]
+      }
+    },
+    "cpu": {
+      "0": {
+        "vendor_id": "GenuineIntel",
+        "family": "6",
+        "model": "58",
+        "model_name": "Intel(R) Core(TM) i7-3517U CPU @ 1.90GHz",
+        "stepping": "9",
+        "mhz": "800.000",
+        "cache_size": "4096 KB",
+        "physical_id": "0",
+        "core_id": "0",
+        "cores": "2",
+        "flags": [
+          "fpu",
+          "vme",
+          "de",
+          "pse",
+          "tsc",
+          "msr",
+          "pae",
+          "mce",
+          "cx8",
+          "apic",
+          "sep",
+          "mtrr",
+          "pge",
+          "mca",
+          "cmov",
+          "pat",
+          "pse36",
+          "clflush",
+          "dts",
+          "acpi",
+          "mmx",
+          "fxsr",
+          "sse",
+          "sse2",
+          "ss",
+          "ht",
+          "tm",
+          "pbe",
+          "syscall",
+          "nx",
+          "rdtscp",
+          "lm",
+          "constant_tsc",
+          "arch_perfmon",
+          "pebs",
+          "bts",
+          "rep_good",
+          "nopl",
+          "xtopology",
+          "nonstop_tsc",
+          "aperfmperf",
+          "eagerfpu",
+          "pni",
+          "pclmulqdq",
+          "dtes64",
+          "monitor",
+          "ds_cpl",
+          "vmx",
+          "est",
+          "tm2",
+          "ssse3",
+          "cx16",
+          "xtpr",
+          "pdcm",
+          "pcid",
+          "sse4_1",
+          "sse4_2",
+          "x2apic",
+          "popcnt",
+          "tsc_deadline_timer",
+          "aes",
+          "xsave",
+          "avx",
+          "f16c",
+          "rdrand",
+          "lahf_lm",
+          "ida",
+          "arat",
+          "epb",
+          "xsaveopt",
+          "pln",
+          "pts",
+          "dtherm",
+          "tpr_shadow",
+          "vnmi",
+          "flexpriority",
+          "ept",
+          "vpid",
+          "fsgsbase",
+          "smep",
+          "erms"
+        ]
+      },
+      "1": {
+        "vendor_id": "GenuineIntel",
+        "family": "6",
+        "model": "58",
+        "model_name": "Intel(R) Core(TM) i7-3517U CPU @ 1.90GHz",
+        "stepping": "9",
+        "mhz": "1901.000",
+        "cache_size": "4096 KB",
+        "physical_id": "0",
+        "core_id": "1",
+        "cores": "2",
+        "flags": [
+          "fpu",
+          "vme",
+          "de",
+          "pse",
+          "tsc",
+          "msr",
+          "pae",
+          "mce",
+          "cx8",
+          "apic",
+          "sep",
+          "mtrr",
+          "pge",
+          "mca",
+          "cmov",
+          "pat",
+          "pse36",
+          "clflush",
+          "dts",
+          "acpi",
+          "mmx",
+          "fxsr",
+          "sse",
+          "sse2",
+          "ss",
+          "ht",
+          "tm",
+          "pbe",
+          "syscall",
+          "nx",
+          "rdtscp",
+          "lm",
+          "constant_tsc",
+          "arch_perfmon",
+          "pebs",
+          "bts",
+          "rep_good",
+          "nopl",
+          "xtopology",
+          "nonstop_tsc",
+          "aperfmperf",
+          "eagerfpu",
+          "pni",
+          "pclmulqdq",
+          "dtes64",
+          "monitor",
+          "ds_cpl",
+          "vmx",
+          "est",
+          "tm2",
+          "ssse3",
+          "cx16",
+          "xtpr",
+          "pdcm",
+          "pcid",
+          "sse4_1",
+          "sse4_2",
+          "x2apic",
+          "popcnt",
+          "tsc_deadline_timer",
+          "aes",
+          "xsave",
+          "avx",
+          "f16c",
+          "rdrand",
+          "lahf_lm",
+          "ida",
+          "arat",
+          "epb",
+          "xsaveopt",
+          "pln",
+          "pts",
+          "dtherm",
+          "tpr_shadow",
+          "vnmi",
+          "flexpriority",
+          "ept",
+          "vpid",
+          "fsgsbase",
+          "smep",
+          "erms"
+        ]
+      },
+      "2": {
+        "vendor_id": "GenuineIntel",
+        "family": "6",
+        "model": "58",
+        "model_name": "Intel(R) Core(TM) i7-3517U CPU @ 1.90GHz",
+        "stepping": "9",
+        "mhz": "800.000",
+        "cache_size": "4096 KB",
+        "physical_id": "0",
+        "core_id": "0",
+        "cores": "2",
+        "flags": [
+          "fpu",
+          "vme",
+          "de",
+          "pse",
+          "tsc",
+          "msr",
+          "pae",
+          "mce",
+          "cx8",
+          "apic",
+          "sep",
+          "mtrr",
+          "pge",
+          "mca",
+          "cmov",
+          "pat",
+          "pse36",
+          "clflush",
+          "dts",
+          "acpi",
+          "mmx",
+          "fxsr",
+          "sse",
+          "sse2",
+          "ss",
+          "ht",
+          "tm",
+          "pbe",
+          "syscall",
+          "nx",
+          "rdtscp",
+          "lm",
+          "constant_tsc",
+          "arch_perfmon",
+          "pebs",
+          "bts",
+          "rep_good",
+          "nopl",
+          "xtopology",
+          "nonstop_tsc",
+          "aperfmperf",
+          "eagerfpu",
+          "pni",
+          "pclmulqdq",
+          "dtes64",
+          "monitor",
+          "ds_cpl",
+          "vmx",
+          "est",
+          "tm2",
+          "ssse3",
+          "cx16",
+          "xtpr",
+          "pdcm",
+          "pcid",
+          "sse4_1",
+          "sse4_2",
+          "x2apic",
+          "popcnt",
+          "tsc_deadline_timer",
+          "aes",
+          "xsave",
+          "avx",
+          "f16c",
+          "rdrand",
+          "lahf_lm",
+          "ida",
+          "arat",
+          "epb",
+          "xsaveopt",
+          "pln",
+          "pts",
+          "dtherm",
+          "tpr_shadow",
+          "vnmi",
+          "flexpriority",
+          "ept",
+          "vpid",
+          "fsgsbase",
+          "smep",
+          "erms"
+        ]
+      },
+      "3": {
+        "vendor_id": "GenuineIntel",
+        "family": "6",
+        "model": "58",
+        "model_name": "Intel(R) Core(TM) i7-3517U CPU @ 1.90GHz",
+        "stepping": "9",
+        "mhz": "800.000",
+        "cache_size": "4096 KB",
+        "physical_id": "0",
+        "core_id": "1",
+        "cores": "2",
+        "flags": [
+          "fpu",
+          "vme",
+          "de",
+          "pse",
+          "tsc",
+          "msr",
+          "pae",
+          "mce",
+          "cx8",
+          "apic",
+          "sep",
+          "mtrr",
+          "pge",
+          "mca",
+          "cmov",
+          "pat",
+          "pse36",
+          "clflush",
+          "dts",
+          "acpi",
+          "mmx",
+          "fxsr",
+          "sse",
+          "sse2",
+          "ss",
+          "ht",
+          "tm",
+          "pbe",
+          "syscall",
+          "nx",
+          "rdtscp",
+          "lm",
+          "constant_tsc",
+          "arch_perfmon",
+          "pebs",
+          "bts",
+          "rep_good",
+          "nopl",
+          "xtopology",
+          "nonstop_tsc",
+          "aperfmperf",
+          "eagerfpu",
+          "pni",
+          "pclmulqdq",
+          "dtes64",
+          "monitor",
+          "ds_cpl",
+          "vmx",
+          "est",
+          "tm2",
+          "ssse3",
+          "cx16",
+          "xtpr",
+          "pdcm",
+          "pcid",
+          "sse4_1",
+          "sse4_2",
+          "x2apic",
+          "popcnt",
+          "tsc_deadline_timer",
+          "aes",
+          "xsave",
+          "avx",
+          "f16c",
+          "rdrand",
+          "lahf_lm",
+          "ida",
+          "arat",
+          "epb",
+          "xsaveopt",
+          "pln",
+          "pts",
+          "dtherm",
+          "tpr_shadow",
+          "vnmi",
+          "flexpriority",
+          "ept",
+          "vpid",
+          "fsgsbase",
+          "smep",
+          "erms"
+        ]
+      },
+      "total": 4,
+      "real": 1,
+      "cores": 2
+    },
+    "network": {
+      "interfaces": {
+        "lo": {
+          "mtu": "65536",
+          "flags": [
+            "LOOPBACK",
+            "UP",
+            "LOWER_UP"
+          ],
+          "encapsulation": "Loopback",
+          "addresses": {
+            "127.0.0.1": {
+              "family": "inet",
+              "prefixlen": "8",
+              "netmask": "255.0.0.0",
+              "scope": "Node"
+            },
+            "::1": {
+              "family": "inet6",
+              "prefixlen": "128",
+              "scope": "Node"
+            }
+          },
+          "state": "unknown"
+        },
+        "wlan0": {
+          "type": "wlan",
+          "number": "0",
+          "mtu": "1500",
+          "flags": [
+            "BROADCAST",
+            "MULTICAST",
+            "UP",
+            "LOWER_UP"
+          ],
+          "encapsulation": "Ethernet",
+          "addresses": {
+            "08:ED:B9:92:8C:FF": {
+              "family": "lladdr"
+            },
+            "192.168.1.89": {
+              "family": "inet",
+              "prefixlen": "22",
+              "netmask": "255.255.252.0",
+              "broadcast": "192.168.3.255",
+              "scope": "Global"
+            },
+            "fe80::aed:b9ff:fe92:8cff": {
+              "family": "inet6",
+              "prefixlen": "64",
+              "scope": "Link"
+            }
+          },
+          "state": "up",
+          "arp": {
+            "192.168.2.95": "08:11:96:52:ed:ec",
+            "192.168.2.41": "30:10:b3:6c:11:88",
+            "192.168.0.1": "4c:5e:0c:01:4e:26",
+            "192.168.2.27": "00:e0:4d:3f:aa:f8",
+            "192.168.2.60": "44:6d:57:03:9a:ce",
+            "192.168.2.26": "f4:5c:89:95:de:3f",
+            "192.168.2.125": "80:e6:50:18:b8:b0",
+            "192.168.1.49": "f4:5c:89:c8:a1:e5",
+            "192.168.2.57": "a8:86:dd:a2:4e:f1",
+            "192.168.1.91": "90:b6:86:e8:4f:07",
+            "192.168.2.13": "a8:66:7f:33:8d:4e",
+            "192.168.2.45": "00:1b:b9:e5:62:df",
+            "192.168.2.55": "1c:65:9d:bb:5a:59",
+            "192.168.0.114": "00:0c:29:f1:77:7c",
+            "192.168.2.33": "1c:65:9d:bb:5a:5b",
+            "192.168.2.43": "98:e0:d9:9e:2b:bf",
+            "192.168.2.99": "08:11:96:53:0a:60",
+            "192.168.2.119": "a4:d1:8c:ec:41:5c",
+            "192.168.2.29": "c8:f7:33:0a:75:8f"
+          },
+          "routes": [
+            {
+              "destination": "default",
+              "family": "inet",
+              "via": "192.168.0.1",
+              "proto": "static"
+            },
+            {
+              "destination": "192.168.0.0/22",
+              "family": "inet",
+              "scope": "link",
+              "metric": "9",
+              "proto": "kernel",
+              "src": "192.168.1.89"
+            },
+            {
+              "destination": "fe80::/64",
+              "family": "inet6",
+              "metric": "256",
+              "proto": "kernel"
+            }
+          ],
+          "neighbour_inet6": {
+            "fe80::aa86:ddff:fea2:4ef1": "a8:86:dd:a2:4e:f1",
+            "fe80::82e6:50ff:fe18:b8b0": "80:e6:50:18:b8:b0",
+            "fe80::aa66:7fff:fe0e:9b1": "a8:66:7f:0e:09:b1",
+            "fe80::f65c:89ff:fe95:de3f": "f4:5c:89:95:de:3f",
+            "fe80::aa66:7fff:fe33:8d4e": "a8:66:7f:33:8d:4e"
+          }
+        },
+        "lxcbr0": {
+          "type": "lxcbr",
+          "number": "0",
+          "mtu": "1500",
+          "flags": [
+            "BROADCAST",
+            "MULTICAST",
+            "UP",
+            "LOWER_UP"
+          ],
+          "encapsulation": "Ethernet",
+          "addresses": {
+            "72:38:51:DD:C4:CB": {
+              "family": "lladdr"
+            },
+            "10.0.3.1": {
+              "family": "inet",
+              "prefixlen": "24",
+              "netmask": "255.255.255.0",
+              "scope": "Global"
+            },
+            "fe80::7038:51ff:fedd:c4cb": {
+              "family": "inet6",
+              "prefixlen": "64",
+              "scope": "Link"
+            }
+          },
+          "state": "unknown",
+          "routes": [
+            {
+              "destination": "10.0.3.0/24",
+              "family": "inet",
+              "scope": "link",
+              "proto": "kernel",
+              "src": "10.0.3.1"
+            },
+            {
+              "destination": "fe80::/64",
+              "family": "inet6",
+              "metric": "256",
+              "proto": "kernel"
+            }
+          ]
+        },
+        "br-a3af3c34cf4c": {
+          "mtu": "1500",
+          "flags": [
+            "BROADCAST",
+            "MULTICAST",
+            "UP"
+          ],
+          "encapsulation": "Ethernet",
+          "addresses": {
+            "02:42:47:2E:A4:A9": {
+              "family": "lladdr"
+            },
+            "172.18.0.1": {
+              "family": "inet",
+              "prefixlen": "16",
+              "netmask": "255.255.0.0",
+              "scope": "Global"
+            }
+          },
+          "state": "down",
+          "routes": [
+            {
+              "destination": "172.18.0.0/16",
+              "family": "inet",
+              "scope": "link",
+              "proto": "kernel",
+              "src": "172.18.0.1"
+            }
+          ]
+        },
+        "docker0": {
+          "type": "docker",
+          "number": "0",
+          "mtu": "1500",
+          "flags": [
+            "BROADCAST",
+            "MULTICAST",
+            "UP",
+            "LOWER_UP"
+          ],
+          "encapsulation": "Ethernet",
+          "addresses": {
+            "02:42:D2:19:14:0D": {
+              "family": "lladdr"
+            },
+            "172.17.0.1": {
+              "family": "inet",
+              "prefixlen": "16",
+              "netmask": "255.255.0.0",
+              "scope": "Global"
+            },
+            "fe80::42:d2ff:fe19:140d": {
+              "family": "inet6",
+              "prefixlen": "64",
+              "scope": "Link"
+            }
+          },
+          "state": "up",
+          "arp": {
+            "172.17.0.3": "02:42:ac:11:00:03",
+            "172.17.0.4": "02:42:ac:11:00:04",
+            "172.17.0.2": "02:42:ac:11:00:02"
+          },
+          "routes": [
+            {
+              "destination": "172.17.0.0/16",
+              "family": "inet",
+              "scope": "link",
+              "proto": "kernel",
+              "src": "172.17.0.1"
+            },
+            {
+              "destination": "fe80::/64",
+              "family": "inet6",
+              "metric": "256",
+              "proto": "kernel"
+            }
+          ]
+        },
+        "vboxnet0": {
+          "type": "vboxnet",
+          "number": "0",
+          "mtu": "1500",
+          "flags": [
+            "BROADCAST",
+            "MULTICAST",
+            "UP",
+            "LOWER_UP"
+          ],
+          "encapsulation": "Ethernet",
+          "addresses": {
+            "0A:00:27:00:00:00": {
+              "family": "lladdr"
+            },
+            "33.33.33.1": {
+              "family": "inet",
+              "prefixlen": "24",
+              "netmask": "255.255.255.0",
+              "broadcast": "33.33.33.255",
+              "scope": "Global"
+            },
+            "fe80::800:27ff:fe00:0": {
+              "family": "inet6",
+              "prefixlen": "64",
+              "scope": "Link"
+            }
+          },
+          "state": "up",
+          "routes": [
+            {
+              "destination": "33.33.33.0/24",
+              "family": "inet",
+              "scope": "link",
+              "proto": "kernel",
+              "src": "33.33.33.1"
+            },
+            {
+              "destination": "fe80::/64",
+              "family": "inet6",
+              "metric": "256",
+              "proto": "kernel"
+            }
+          ],
+          "link_speed": 10,
+          "duplex": "Full",
+          "port": "Twisted Pair",
+          "transceiver": "internal",
+          "auto_negotiation": "off",
+          "mdi_x": "Unknown"
+        },
+        "vboxnet1": {
+          "type": "vboxnet",
+          "number": "1",
+          "mtu": "1500",
+          "flags": [
+            "BROADCAST",
+            "MULTICAST"
+          ],
+          "encapsulation": "Ethernet",
+          "addresses": {
+            "0A:00:27:00:00:01": {
+              "family": "lladdr"
+            }
+          },
+          "state": "down",
+          "link_speed": 10,
+          "duplex": "Full",
+          "port": "Twisted Pair",
+          "transceiver": "internal",
+          "auto_negotiation": "off",
+          "mdi_x": "Unknown"
+        },
+        "vboxnet10": {
+          "type": "vboxnet1",
+          "number": "0",
+          "mtu": "1500",
+          "flags": [
+            "BROADCAST",
+            "MULTICAST"
+          ],
+          "encapsulation": "Ethernet",
+          "addresses": {
+            "0A:00:27:00:00:0A": {
+              "family": "lladdr"
+            }
+          },
+          "state": "down",
+          "link_speed": 10,
+          "duplex": "Full",
+          "port": "Twisted Pair",
+          "transceiver": "internal",
+          "auto_negotiation": "off",
+          "mdi_x": "Unknown"
+        },
+        "vboxnet11": {
+          "type": "vboxnet1",
+          "number": "1",
+          "mtu": "1500",
+          "flags": [
+            "BROADCAST",
+            "MULTICAST"
+          ],
+          "encapsulation": "Ethernet",
+          "addresses": {
+            "0A:00:27:00:00:0B": {
+              "family": "lladdr"
+            }
+          },
+          "state": "down",
+          "link_speed": 10,
+          "duplex": "Full",
+          "port": "Twisted Pair",
+          "transceiver": "internal",
+          "auto_negotiation": "off",
+          "mdi_x": "Unknown"
+        },
+        "vboxnet12": {
+          "type": "vboxnet1",
+          "number": "2",
+          "mtu": "1500",
+          "flags": [
+            "BROADCAST",
+            "MULTICAST"
+          ],
+          "encapsulation": "Ethernet",
+          "addresses": {
+            "0A:00:27:00:00:0C": {
+              "family": "lladdr"
+            }
+          },
+          "state": "down",
+          "link_speed": 10,
+          "duplex": "Full",
+          "port": "Twisted Pair",
+          "transceiver": "internal",
+          "auto_negotiation": "off",
+          "mdi_x": "Unknown"
+        },
+        "vboxnet13": {
+          "type": "vboxnet1",
+          "number": "3",
+          "mtu": "1500",
+          "flags": [
+            "BROADCAST",
+            "MULTICAST"
+          ],
+          "encapsulation": "Ethernet",
+          "addresses": {
+            "0A:00:27:00:00:0D": {
+              "family": "lladdr"
+            }
+          },
+          "state": "down",
+          "link_speed": 10,
+          "duplex": "Full",
+          "port": "Twisted Pair",
+          "transceiver": "internal",
+          "auto_negotiation": "off",
+          "mdi_x": "Unknown"
+        },
+        "vboxnet14": {
+          "type": "vboxnet1",
+          "number": "4",
+          "mtu": "1500",
+          "flags": [
+            "BROADCAST",
+            "MULTICAST"
+          ],
+          "encapsulation": "Ethernet",
+          "addresses": {
+            "0A:00:27:00:00:0E": {
+              "family": "lladdr"
+            }
+          },
+          "state": "down",
+          "link_speed": 10,
+          "duplex": "Full",
+          "port": "Twisted Pair",
+          "transceiver": "internal",
+          "auto_negotiation": "off",
+          "mdi_x": "Unknown"
+        },
+        "vboxnet15": {
+          "type": "vboxnet1",
+          "number": "5",
+          "mtu": "1500",
+          "flags": [
+            "BROADCAST",
+            "MULTICAST"
+          ],
+          "encapsulation": "Ethernet",
+          "addresses": {
+            "0A:00:27:00:00:0F": {
+              "family": "lladdr"
+            }
+          },
+          "state": "down",
+          "link_speed": 10,
+          "duplex": "Full",
+          "port": "Twisted Pair",
+          "transceiver": "internal",
+          "auto_negotiation": "off",
+          "mdi_x": "Unknown"
+        },
+        "vboxnet16": {
+          "type": "vboxnet1",
+          "number": "6",
+          "mtu": "1500",
+          "flags": [
+            "BROADCAST",
+            "MULTICAST"
+          ],
+          "encapsulation": "Ethernet",
+          "addresses": {
+            "0A:00:27:00:00:10": {
+              "family": "lladdr"
+            }
+          },
+          "state": "down",
+          "link_speed": 10,
+          "duplex": "Full",
+          "port": "Twisted Pair",
+          "transceiver": "internal",
+          "auto_negotiation": "off",
+          "mdi_x": "Unknown"
+        },
+        "vboxnet17": {
+          "type": "vboxnet1",
+          "number": "7",
+          "mtu": "1500",
+          "flags": [
+            "BROADCAST",
+            "MULTICAST"
+          ],
+          "encapsulation": "Ethernet",
+          "addresses": {
+            "0A:00:27:00:00:11": {
+              "family": "lladdr"
+            }
+          },
+          "state": "down",
+          "link_speed": 10,
+          "duplex": "Full",
+          "port": "Twisted Pair",
+          "transceiver": "internal",
+          "auto_negotiation": "off",
+          "mdi_x": "Unknown"
+        },
+        "vboxnet18": {
+          "type": "vboxnet1",
+          "number": "8",
+          "mtu": "1500",
+          "flags": [
+            "BROADCAST",
+            "MULTICAST"
+          ],
+          "encapsulation": "Ethernet",
+          "addresses": {
+            "0A:00:27:00:00:12": {
+              "family": "lladdr"
+            }
+          },
+          "state": "down",
+          "link_speed": 10,
+          "duplex": "Full",
+          "port": "Twisted Pair",
+          "transceiver": "internal",
+          "auto_negotiation": "off",
+          "mdi_x": "Unknown"
+        },
+        "vboxnet19": {
+          "type": "vboxnet1",
+          "number": "9",
+          "mtu": "1500",
+          "flags": [
+            "BROADCAST",
+            "MULTICAST"
+          ],
+          "encapsulation": "Ethernet",
+          "addresses": {
+            "0A:00:27:00:00:13": {
+              "family": "lladdr"
+            }
+          },
+          "state": "down",
+          "link_speed": 10,
+          "duplex": "Full",
+          "port": "Twisted Pair",
+          "transceiver": "internal",
+          "auto_negotiation": "off",
+          "mdi_x": "Unknown"
+        },
+        "vboxnet2": {
+          "type": "vboxnet",
+          "number": "2",
+          "mtu": "1500",
+          "flags": [
+            "BROADCAST",
+            "MULTICAST"
+          ],
+          "encapsulation": "Ethernet",
+          "addresses": {
+            "0A:00:27:00:00:02": {
+              "family": "lladdr"
+            }
+          },
+          "state": "down",
+          "link_speed": 10,
+          "duplex": "Full",
+          "port": "Twisted Pair",
+          "transceiver": "internal",
+          "auto_negotiation": "off",
+          "mdi_x": "Unknown"
+        },
+        "vboxnet20": {
+          "type": "vboxnet2",
+          "number": "0",
+          "mtu": "1500",
+          "flags": [
+            "BROADCAST",
+            "MULTICAST"
+          ],
+          "encapsulation": "Ethernet",
+          "addresses": {
+            "0A:00:27:00:00:14": {
+              "family": "lladdr"
+            }
+          },
+          "state": "down",
+          "link_speed": 10,
+          "duplex": "Full",
+          "port": "Twisted Pair",
+          "transceiver": "internal",
+          "auto_negotiation": "off",
+          "mdi_x": "Unknown"
+        },
+        "vboxnet21": {
+          "type": "vboxnet2",
+          "number": "1",
+          "mtu": "1500",
+          "flags": [
+            "BROADCAST",
+            "MULTICAST"
+          ],
+          "encapsulation": "Ethernet",
+          "addresses": {
+            "0A:00:27:00:00:15": {
+              "family": "lladdr"
+            }
+          },
+          "state": "down",
+          "link_speed": 10,
+          "duplex": "Full",
+          "port": "Twisted Pair",
+          "transceiver": "internal",
+          "auto_negotiation": "off",
+          "mdi_x": "Unknown"
+        },
+        "vboxnet22": {
+          "type": "vboxnet2",
+          "number": "2",
+          "mtu": "1500",
+          "flags": [
+            "BROADCAST",
+            "MULTICAST"
+          ],
+          "encapsulation": "Ethernet",
+          "addresses": {
+            "0A:00:27:00:00:16": {
+              "family": "lladdr"
+            }
+          },
+          "state": "down",
+          "link_speed": 10,
+          "duplex": "Full",
+          "port": "Twisted Pair",
+          "transceiver": "internal",
+          "auto_negotiation": "off",
+          "mdi_x": "Unknown"
+        },
+        "vboxnet23": {
+          "type": "vboxnet2",
+          "number": "3",
+          "mtu": "1500",
+          "flags": [
+            "BROADCAST",
+            "MULTICAST"
+          ],
+          "encapsulation": "Ethernet",
+          "addresses": {
+            "0A:00:27:00:00:17": {
+              "family": "lladdr"
+            }
+          },
+          "state": "down",
+          "link_speed": 10,
+          "duplex": "Full",
+          "port": "Twisted Pair",
+          "transceiver": "internal",
+          "auto_negotiation": "off",
+          "mdi_x": "Unknown"
+        },
+        "vboxnet24": {
+          "type": "vboxnet2",
+          "number": "4",
+          "mtu": "1500",
+          "flags": [
+            "BROADCAST",
+            "MULTICAST"
+          ],
+          "encapsulation": "Ethernet",
+          "addresses": {
+            "0A:00:27:00:00:18": {
+              "family": "lladdr"
+            }
+          },
+          "state": "down",
+          "link_speed": 10,
+          "duplex": "Full",
+          "port": "Twisted Pair",
+          "transceiver": "internal",
+          "auto_negotiation": "off",
+          "mdi_x": "Unknown"
+        },
+        "vboxnet25": {
+          "type": "vboxnet2",
+          "number": "5",
+          "mtu": "1500",
+          "flags": [
+            "BROADCAST",
+            "MULTICAST"
+          ],
+          "encapsulation": "Ethernet",
+          "addresses": {
+            "0A:00:27:00:00:19": {
+              "family": "lladdr"
+            }
+          },
+          "state": "down",
+          "link_speed": 10,
+          "duplex": "Full",
+          "port": "Twisted Pair",
+          "transceiver": "internal",
+          "auto_negotiation": "off",
+          "mdi_x": "Unknown"
+        },
+        "vboxnet26": {
+          "type": "vboxnet2",
+          "number": "6",
+          "mtu": "1500",
+          "flags": [
+            "BROADCAST",
+            "MULTICAST"
+          ],
+          "encapsulation": "Ethernet",
+          "addresses": {
+            "0A:00:27:00:00:1A": {
+              "family": "lladdr"
+            }
+          },
+          "state": "down",
+          "link_speed": 10,
+          "duplex": "Full",
+          "port": "Twisted Pair",
+          "transceiver": "internal",
+          "auto_negotiation": "off",
+          "mdi_x": "Unknown"
+        },
+        "vboxnet27": {
+          "type": "vboxnet2",
+          "number": "7",
+          "mtu": "1500",
+          "flags": [
+            "BROADCAST",
+            "MULTICAST"
+          ],
+          "encapsulation": "Ethernet",
+          "addresses": {
+            "0A:00:27:00:00:1B": {
+              "family": "lladdr"
+            }
+          },
+          "state": "down",
+          "link_speed": 10,
+          "duplex": "Full",
+          "port": "Twisted Pair",
+          "transceiver": "internal",
+          "auto_negotiation": "off",
+          "mdi_x": "Unknown"
+        },
+        "vboxnet28": {
+          "type": "vboxnet2",
+          "number": "8",
+          "mtu": "1500",
+          "flags": [
+            "BROADCAST",
+            "MULTICAST"
+          ],
+          "encapsulation": "Ethernet",
+          "addresses": {
+            "0A:00:27:00:00:1C": {
+              "family": "lladdr"
+            }
+          },
+          "state": "down",
+          "link_speed": 10,
+          "duplex": "Full",
+          "port": "Twisted Pair",
+          "transceiver": "internal",
+          "auto_negotiation": "off",
+          "mdi_x": "Unknown"
+        },
+        "vboxnet29": {
+          "type": "vboxnet2",
+          "number": "9",
+          "mtu": "1500",
+          "flags": [
+            "BROADCAST",
+            "MULTICAST"
+          ],
+          "encapsulation": "Ethernet",
+          "addresses": {
+            "0A:00:27:00:00:1D": {
+              "family": "lladdr"
+            }
+          },
+          "state": "down",
+          "link_speed": 10,
+          "duplex": "Full",
+          "port": "Twisted Pair",
+          "transceiver": "internal",
+          "auto_negotiation": "off",
+          "mdi_x": "Unknown"
+        },
+        "vboxnet3": {
+          "type": "vboxnet",
+          "number": "3",
+          "mtu": "1500",
+          "flags": [
+            "BROADCAST",
+            "MULTICAST",
+            "UP",
+            "LOWER_UP"
+          ],
+          "encapsulation": "Ethernet",
+          "addresses": {
+            "0A:00:27:00:00:03": {
+              "family": "lladdr"
+            },
+            "172.28.128.1": {
+              "family": "inet",
+              "prefixlen": "24",
+              "netmask": "255.255.255.0",
+              "broadcast": "172.28.128.255",
+              "scope": "Global"
+            },
+            "fe80::800:27ff:fe00:3": {
+              "family": "inet6",
+              "prefixlen": "64",
+              "scope": "Link"
+            }
+          },
+          "state": "up",
+          "arp": {
+            "172.28.128.3": "08:00:27:63:09:49"
+          },
+          "routes": [
+            {
+              "destination": "172.28.128.0/24",
+              "family": "inet",
+              "scope": "link",
+              "proto": "kernel",
+              "src": "172.28.128.1"
+            },
+            {
+              "destination": "fe80::/64",
+              "family": "inet6",
+              "metric": "256",
+              "proto": "kernel"
+            }
+          ],
+          "link_speed": 10,
+          "duplex": "Full",
+          "port": "Twisted Pair",
+          "transceiver": "internal",
+          "auto_negotiation": "off",
+          "mdi_x": "Unknown"
+        },
+        "vboxnet30": {
+          "type": "vboxnet3",
+          "number": "0",
+          "mtu": "1500",
+          "flags": [
+            "BROADCAST",
+            "MULTICAST"
+          ],
+          "encapsulation": "Ethernet",
+          "addresses": {
+            "0A:00:27:00:00:1E": {
+              "family": "lladdr"
+            }
+          },
+          "state": "down",
+          "link_speed": 10,
+          "duplex": "Full",
+          "port": "Twisted Pair",
+          "transceiver": "internal",
+          "auto_negotiation": "off",
+          "mdi_x": "Unknown"
+        },
+        "vboxnet31": {
+          "type": "vboxnet3",
+          "number": "1",
+          "mtu": "1500",
+          "flags": [
+            "BROADCAST",
+            "MULTICAST"
+          ],
+          "encapsulation": "Ethernet",
+          "addresses": {
+            "0A:00:27:00:00:1F": {
+              "family": "lladdr"
+            }
+          },
+          "state": "down",
+          "link_speed": 10,
+          "duplex": "Full",
+          "port": "Twisted Pair",
+          "transceiver": "internal",
+          "auto_negotiation": "off",
+          "mdi_x": "Unknown"
+        },
+        "vboxnet32": {
+          "type": "vboxnet3",
+          "number": "2",
+          "mtu": "1500",
+          "flags": [
+            "BROADCAST",
+            "MULTICAST"
+          ],
+          "encapsulation": "Ethernet",
+          "addresses": {
+            "0A:00:27:00:00:20": {
+              "family": "lladdr"
+            }
+          },
+          "state": "down",
+          "link_speed": 10,
+          "duplex": "Full",
+          "port": "Twisted Pair",
+          "transceiver": "internal",
+          "auto_negotiation": "off",
+          "mdi_x": "Unknown"
+        },
+        "vboxnet33": {
+          "type": "vboxnet3",
+          "number": "3",
+          "mtu": "1500",
+          "flags": [
+            "BROADCAST",
+            "MULTICAST"
+          ],
+          "encapsulation": "Ethernet",
+          "addresses": {
+            "0A:00:27:00:00:21": {
+              "family": "lladdr"
+            }
+          },
+          "state": "down",
+          "link_speed": 10,
+          "duplex": "Full",
+          "port": "Twisted Pair",
+          "transceiver": "internal",
+          "auto_negotiation": "off",
+          "mdi_x": "Unknown"
+        },
+        "vboxnet34": {
+          "type": "vboxnet3",
+          "number": "4",
+          "mtu": "1500",
+          "flags": [
+            "BROADCAST",
+            "MULTICAST"
+          ],
+          "encapsulation": "Ethernet",
+          "addresses": {
+            "0A:00:27:00:00:22": {
+              "family": "lladdr"
+            }
+          },
+          "state": "down",
+          "link_speed": 10,
+          "duplex": "Full",
+          "port": "Twisted Pair",
+          "transceiver": "internal",
+          "auto_negotiation": "off",
+          "mdi_x": "Unknown"
+        },
+        "vboxnet35": {
+          "type": "vboxnet3",
+          "number": "5",
+          "mtu": "1500",
+          "flags": [
+            "BROADCAST",
+            "MULTICAST"
+          ],
+          "encapsulation": "Ethernet",
+          "addresses": {
+            "0A:00:27:00:00:23": {
+              "family": "lladdr"
+            }
+          },
+          "state": "down",
+          "link_speed": 10,
+          "duplex": "Full",
+          "port": "Twisted Pair",
+          "transceiver": "internal",
+          "auto_negotiation": "off",
+          "mdi_x": "Unknown"
+        },
+        "vboxnet36": {
+          "type": "vboxnet3",
+          "number": "6",
+          "mtu": "1500",
+          "flags": [
+            "BROADCAST",
+            "MULTICAST"
+          ],
+          "encapsulation": "Ethernet",
+          "addresses": {
+            "0A:00:27:00:00:24": {
+              "family": "lladdr"
+            }
+          },
+          "state": "down",
+          "link_speed": 10,
+          "duplex": "Full",
+          "port": "Twisted Pair",
+          "transceiver": "internal",
+          "auto_negotiation": "off",
+          "mdi_x": "Unknown"
+        },
+        "vboxnet37": {
+          "type": "vboxnet3",
+          "number": "7",
+          "mtu": "1500",
+          "flags": [
+            "BROADCAST",
+            "MULTICAST"
+          ],
+          "encapsulation": "Ethernet",
+          "addresses": {
+            "0A:00:27:00:00:25": {
+              "family": "lladdr"
+            }
+          },
+          "state": "down",
+          "link_speed": 10,
+          "duplex": "Full",
+          "port": "Twisted Pair",
+          "transceiver": "internal",
+          "auto_negotiation": "off",
+          "mdi_x": "Unknown"
+        },
+        "vboxnet38": {
+          "type": "vboxnet3",
+          "number": "8",
+          "mtu": "1500",
+          "flags": [
+            "BROADCAST",
+            "MULTICAST"
+          ],
+          "encapsulation": "Ethernet",
+          "addresses": {
+            "0A:00:27:00:00:26": {
+              "family": "lladdr"
+            }
+          },
+          "state": "down",
+          "link_speed": 10,
+          "duplex": "Full",
+          "port": "Twisted Pair",
+          "transceiver": "internal",
+          "auto_negotiation": "off",
+          "mdi_x": "Unknown"
+        },
+        "vboxnet39": {
+          "type": "vboxnet3",
+          "number": "9",
+          "mtu": "1500",
+          "flags": [
+            "BROADCAST",
+            "MULTICAST"
+          ],
+          "encapsulation": "Ethernet",
+          "addresses": {
+            "0A:00:27:00:00:27": {
+              "family": "lladdr"
+            }
+          },
+          "state": "down",
+          "link_speed": 10,
+          "duplex": "Full",
+          "port": "Twisted Pair",
+          "transceiver": "internal",
+          "auto_negotiation": "off",
+          "mdi_x": "Unknown"
+        },
+        "vboxnet4": {
+          "type": "vboxnet",
+          "number": "4",
+          "mtu": "1500",
+          "flags": [
+            "BROADCAST",
+            "MULTICAST"
+          ],
+          "encapsulation": "Ethernet",
+          "addresses": {
+            "0A:00:27:00:00:04": {
+              "family": "lladdr"
+            }
+          },
+          "state": "down",
+          "link_speed": 10,
+          "duplex": "Full",
+          "port": "Twisted Pair",
+          "transceiver": "internal",
+          "auto_negotiation": "off",
+          "mdi_x": "Unknown"
+        },
+        "vboxnet40": {
+          "type": "vboxnet4",
+          "number": "0",
+          "mtu": "1500",
+          "flags": [
+            "BROADCAST",
+            "MULTICAST"
+          ],
+          "encapsulation": "Ethernet",
+          "addresses": {
+            "0A:00:27:00:00:28": {
+              "family": "lladdr"
+            }
+          },
+          "state": "down",
+          "link_speed": 10,
+          "duplex": "Full",
+          "port": "Twisted Pair",
+          "transceiver": "internal",
+          "auto_negotiation": "off",
+          "mdi_x": "Unknown"
+        },
+        "vboxnet41": {
+          "type": "vboxnet4",
+          "number": "1",
+          "mtu": "1500",
+          "flags": [
+            "BROADCAST",
+            "MULTICAST"
+          ],
+          "encapsulation": "Ethernet",
+          "addresses": {
+            "0A:00:27:00:00:29": {
+              "family": "lladdr"
+            }
+          },
+          "state": "down",
+          "link_speed": 10,
+          "duplex": "Full",
+          "port": "Twisted Pair",
+          "transceiver": "internal",
+          "auto_negotiation": "off",
+          "mdi_x": "Unknown"
+        },
+        "vboxnet42": {
+          "type": "vboxnet4",
+          "number": "2",
+          "mtu": "1500",
+          "flags": [
+            "BROADCAST",
+            "MULTICAST"
+          ],
+          "encapsulation": "Ethernet",
+          "addresses": {
+            "0A:00:27:00:00:2A": {
+              "family": "lladdr"
+            }
+          },
+          "state": "down",
+          "link_speed": 10,
+          "duplex": "Full",
+          "port": "Twisted Pair",
+          "transceiver": "internal",
+          "auto_negotiation": "off",
+          "mdi_x": "Unknown"
+        },
+        "vboxnet43": {
+          "type": "vboxnet4",
+          "number": "3",
+          "mtu": "1500",
+          "flags": [
+            "BROADCAST",
+            "MULTICAST",
+            "UP",
+            "LOWER_UP"
+          ],
+          "encapsulation": "Ethernet",
+          "addresses": {
+            "0A:00:27:00:00:2B": {
+              "family": "lladdr"
+            },
+            "192.168.99.1": {
+              "family": "inet",
+              "prefixlen": "24",
+              "netmask": "255.255.255.0",
+              "broadcast": "192.168.99.255",
+              "scope": "Global"
+            },
+            "fe80::800:27ff:fe00:2b": {
+              "family": "inet6",
+              "prefixlen": "64",
+              "scope": "Link"
+            }
+          },
+          "state": "up",
+          "arp": {
+            "192.168.99.100": "08:00:27:a9:e6:d1"
+          },
+          "routes": [
+            {
+              "destination": "192.168.99.0/24",
+              "family": "inet",
+              "scope": "link",
+              "proto": "kernel",
+              "src": "192.168.99.1"
+            },
+            {
+              "destination": "fe80::/64",
+              "family": "inet6",
+              "metric": "256",
+              "proto": "kernel"
+            }
+          ],
+          "link_speed": 10,
+          "duplex": "Full",
+          "port": "Twisted Pair",
+          "transceiver": "internal",
+          "auto_negotiation": "off",
+          "mdi_x": "Unknown"
+        },
+        "vboxnet5": {
+          "type": "vboxnet",
+          "number": "5",
+          "mtu": "1500",
+          "flags": [
+            "BROADCAST",
+            "MULTICAST"
+          ],
+          "encapsulation": "Ethernet",
+          "addresses": {
+            "0A:00:27:00:00:05": {
+              "family": "lladdr"
+            }
+          },
+          "state": "down",
+          "link_speed": 10,
+          "duplex": "Full",
+          "port": "Twisted Pair",
+          "transceiver": "internal",
+          "auto_negotiation": "off",
+          "mdi_x": "Unknown"
+        },
+        "vboxnet6": {
+          "type": "vboxnet",
+          "number": "6",
+          "mtu": "1500",
+          "flags": [
+            "BROADCAST",
+            "MULTICAST"
+          ],
+          "encapsulation": "Ethernet",
+          "addresses": {
+            "0A:00:27:00:00:06": {
+              "family": "lladdr"
+            }
+          },
+          "state": "down",
+          "link_speed": 10,
+          "duplex": "Full",
+          "port": "Twisted Pair",
+          "transceiver": "internal",
+          "auto_negotiation": "off",
+          "mdi_x": "Unknown"
+        },
+        "vboxnet7": {
+          "type": "vboxnet",
+          "number": "7",
+          "mtu": "1500",
+          "flags": [
+            "BROADCAST",
+            "MULTICAST"
+          ],
+          "encapsulation": "Ethernet",
+          "addresses": {
+            "0A:00:27:00:00:07": {
+              "family": "lladdr"
+            }
+          },
+          "state": "down",
+          "link_speed": 10,
+          "duplex": "Full",
+          "port": "Twisted Pair",
+          "transceiver": "internal",
+          "auto_negotiation": "off",
+          "mdi_x": "Unknown"
+        },
+        "vboxnet8": {
+          "type": "vboxnet",
+          "number": "8",
+          "mtu": "1500",
+          "flags": [
+            "BROADCAST",
+            "MULTICAST"
+          ],
+          "encapsulation": "Ethernet",
+          "addresses": {
+            "0A:00:27:00:00:08": {
+              "family": "lladdr"
+            }
+          },
+          "state": "down",
+          "link_speed": 10,
+          "duplex": "Full",
+          "port": "Twisted Pair",
+          "transceiver": "internal",
+          "auto_negotiation": "off",
+          "mdi_x": "Unknown"
+        },
+        "vboxnet9": {
+          "type": "vboxnet",
+          "number": "9",
+          "mtu": "1500",
+          "flags": [
+            "BROADCAST",
+            "MULTICAST"
+          ],
+          "encapsulation": "Ethernet",
+          "addresses": {
+            "0A:00:27:00:00:09": {
+              "family": "lladdr"
+            }
+          },
+          "state": "down",
+          "link_speed": 10,
+          "duplex": "Full",
+          "port": "Twisted Pair",
+          "transceiver": "internal",
+          "auto_negotiation": "off",
+          "mdi_x": "Unknown"
+        },
+        "vboxnet44": {
+          "type": "vboxnet4",
+          "number": "4",
+          "mtu": "1500",
+          "flags": [
+            "BROADCAST",
+            "MULTICAST",
+            "UP"
+          ],
+          "encapsulation": "Ethernet",
+          "addresses": {
+            "0A:00:27:00:00:2C": {
+              "family": "lladdr"
+            },
+            "33.33.34.1": {
+              "family": "inet",
+              "prefixlen": "24",
+              "netmask": "255.255.255.0",
+              "broadcast": "33.33.34.255",
+              "scope": "Global"
+            },
+            "fe80::800:27ff:fe00:2c": {
+              "family": "inet6",
+              "prefixlen": "64",
+              "scope": "Link"
+            }
+          },
+          "state": "down",
+          "arp": {
+            "33.33.34.10": "08:00:27:a9:7f:26"
+          },
+          "routes": [
+            {
+              "destination": "33.33.34.0/24",
+              "family": "inet",
+              "scope": "link",
+              "proto": "kernel",
+              "src": "33.33.34.1"
+            },
+            {
+              "destination": "fe80::/64",
+              "family": "inet6",
+              "metric": "256",
+              "proto": "kernel"
+            }
+          ],
+          "link_speed": 10,
+          "duplex": "Full",
+          "port": "Twisted Pair",
+          "transceiver": "internal",
+          "auto_negotiation": "off",
+          "mdi_x": "Unknown"
+        },
+        "vboxnet45": {
+          "type": "vboxnet4",
+          "number": "5",
+          "mtu": "1500",
+          "flags": [
+            "BROADCAST",
+            "MULTICAST",
+            "UP"
+          ],
+          "encapsulation": "Ethernet",
+          "addresses": {
+            "0A:00:27:00:00:2D": {
+              "family": "lladdr"
+            },
+            "33.33.35.1": {
+              "family": "inet",
+              "prefixlen": "24",
+              "netmask": "255.255.255.0",
+              "broadcast": "33.33.35.255",
+              "scope": "Global"
+            },
+            "fe80::800:27ff:fe00:2d": {
+              "family": "inet6",
+              "prefixlen": "64",
+              "scope": "Link"
+            }
+          },
+          "state": "down",
+          "arp": {
+            "33.33.35.12": "08:00:27:2f:cb:3b",
+            "33.33.35.10": "08:00:27:ce:65:da"
+          },
+          "routes": [
+            {
+              "destination": "33.33.35.0/24",
+              "family": "inet",
+              "scope": "link",
+              "proto": "kernel",
+              "src": "33.33.35.1"
+            },
+            {
+              "destination": "fe80::/64",
+              "family": "inet6",
+              "metric": "256",
+              "proto": "kernel"
+            }
+          ],
+          "link_speed": 10,
+          "duplex": "Full",
+          "port": "Twisted Pair",
+          "transceiver": "internal",
+          "auto_negotiation": "off",
+          "mdi_x": "Unknown"
+        },
+        "br-a0cbe17ed5d1": {
+          "mtu": "1500",
+          "flags": [
+            "BROADCAST",
+            "MULTICAST",
+            "UP"
+          ],
+          "encapsulation": "Ethernet",
+          "addresses": {
+            "02:42:E9:11:42:38": {
+              "family": "lladdr"
+            },
+            "172.19.0.1": {
+              "family": "inet",
+              "prefixlen": "16",
+              "netmask": "255.255.0.0",
+              "scope": "Global"
+            },
+            "fe80::42:e9ff:fe11:4238": {
+              "family": "inet6",
+              "prefixlen": "64",
+              "scope": "Link"
+            }
+          },
+          "state": "down",
+          "arp": {
+            "172.19.0.3": "02:42:ac:13:00:03"
+          },
+          "routes": [
+            {
+              "destination": "172.19.0.0/16",
+              "family": "inet",
+              "scope": "link",
+              "proto": "kernel",
+              "src": "172.19.0.1"
+            },
+            {
+              "destination": "fe80::/64",
+              "family": "inet6",
+              "metric": "256",
+              "proto": "kernel"
+            }
+          ]
+        },
+        "vboxnet46": {
+          "type": "vboxnet4",
+          "number": "6",
+          "mtu": "1500",
+          "flags": [
+            "BROADCAST",
+            "MULTICAST",
+            "UP"
+          ],
+          "encapsulation": "Ethernet",
+          "addresses": {
+            "0A:00:27:00:00:2E": {
+              "family": "lladdr"
+            },
+            "33.33.36.1": {
+              "family": "inet",
+              "prefixlen": "24",
+              "netmask": "255.255.255.0",
+              "broadcast": "33.33.36.255",
+              "scope": "Global"
+            },
+            "fe80::800:27ff:fe00:2e": {
+              "family": "inet6",
+              "prefixlen": "64",
+              "scope": "Link"
+            }
+          },
+          "state": "down",
+          "arp": {
+            "33.33.36.10": "08:00:27:f5:90:41"
+          },
+          "routes": [
+            {
+              "destination": "33.33.36.0/24",
+              "family": "inet",
+              "scope": "link",
+              "proto": "kernel",
+              "src": "33.33.36.1"
+            },
+            {
+              "destination": "fe80::/64",
+              "family": "inet6",
+              "metric": "256",
+              "proto": "kernel"
+            }
+          ],
+          "link_speed": 10,
+          "duplex": "Full",
+          "port": "Twisted Pair",
+          "transceiver": "internal",
+          "auto_negotiation": "off",
+          "mdi_x": "Unknown"
+        },
+        "eth0": {
+          "type": "eth",
+          "number": "0",
+          "mtu": "1500",
+          "flags": [
+            "BROADCAST",
+            "MULTICAST",
+            "UP"
+          ],
+          "encapsulation": "Ethernet",
+          "addresses": {
+            "78:45:C4:BC:B5:39": {
+              "family": "lladdr"
+            }
+          },
+          "state": "down",
+          "link_speed": 0,
+          "duplex": "Unknown! (255)",
+          "port": "Twisted Pair",
+          "transceiver": "internal",
+          "auto_negotiation": "on",
+          "mdi_x": "Unknown"
+        },
+        "veth8c30bff": {
+          "type": "veth8c3",
+          "number": "0bff",
+          "mtu": "1500",
+          "flags": [
+            "BROADCAST",
+            "MULTICAST",
+            "UP",
+            "LOWER_UP"
+          ],
+          "encapsulation": "Ethernet",
+          "addresses": {
+            "1E:23:28:5C:1B:17": {
+              "family": "lladdr"
+            },
+            "fe80::1c23:28ff:fe5c:1b17": {
+              "family": "inet6",
+              "prefixlen": "64",
+              "scope": "Link"
+            }
+          },
+          "state": "up",
+          "routes": [
+            {
+              "destination": "fe80::/64",
+              "family": "inet6",
+              "metric": "256",
+              "proto": "kernel"
+            }
+          ],
+          "link_speed": 10000,
+          "duplex": "Full",
+          "port": "Twisted Pair",
+          "transceiver": "internal",
+          "auto_negotiation": "off",
+          "mdi_x": "Unknown"
+        },
+        "vethc92e4fe": {
+          "type": "vethc92e",
+          "number": "4fe",
+          "mtu": "1500",
+          "flags": [
+            "BROADCAST",
+            "MULTICAST",
+            "UP",
+            "LOWER_UP"
+          ],
+          "encapsulation": "Ethernet",
+          "addresses": {
+            "BE:FB:D5:40:66:C0": {
+              "family": "lladdr"
+            },
+            "fe80::bcfb:d5ff:fe40:66c0": {
+              "family": "inet6",
+              "prefixlen": "64",
+              "scope": "Link"
+            }
+          },
+          "state": "up",
+          "routes": [
+            {
+              "destination": "fe80::/64",
+              "family": "inet6",
+              "metric": "256",
+              "proto": "kernel"
+            }
+          ],
+          "link_speed": 10000,
+          "duplex": "Full",
+          "port": "Twisted Pair",
+          "transceiver": "internal",
+          "auto_negotiation": "off",
+          "mdi_x": "Unknown"
+        }
+      },
+      "default_interface": "wlan0",
+      "default_gateway": "192.168.0.1"
+    },
+    "counters": {
+      "network": {
+        "interfaces": {
+          "lo": {
+            "rx": {
+              "bytes": "489995120",
+              "packets": "428300",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            },
+            "tx": {
+              "bytes": "489995120",
+              "packets": "428300",
+              "errors": "0",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            }
+          },
+          "wlan0": {
+            "tx": {
+              "queuelen": "1000",
+              "bytes": "381011978",
+              "packets": "2663227",
+              "errors": "927",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            },
+            "rx": {
+              "bytes": "861418634",
+              "packets": "4295591",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            }
+          },
+          "lxcbr0": {
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            },
+            "tx": {
+              "bytes": "178769",
+              "packets": "790",
+              "errors": "0",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            }
+          },
+          "br-a3af3c34cf4c": {
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            },
+            "tx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            }
+          },
+          "docker0": {
+            "rx": {
+              "bytes": "11779325",
+              "packets": "138877",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            },
+            "tx": {
+              "bytes": "336982293",
+              "packets": "231179",
+              "errors": "0",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            }
+          },
+          "vboxnet0": {
+            "tx": {
+              "queuelen": "1000",
+              "bytes": "1978706",
+              "packets": "6921",
+              "errors": "0",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            },
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            }
+          },
+          "vboxnet1": {
+            "tx": {
+              "queuelen": "1000",
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            },
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            }
+          },
+          "vboxnet10": {
+            "tx": {
+              "queuelen": "1000",
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            },
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            }
+          },
+          "vboxnet11": {
+            "tx": {
+              "queuelen": "1000",
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            },
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            }
+          },
+          "vboxnet12": {
+            "tx": {
+              "queuelen": "1000",
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            },
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            }
+          },
+          "vboxnet13": {
+            "tx": {
+              "queuelen": "1000",
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            },
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            }
+          },
+          "vboxnet14": {
+            "tx": {
+              "queuelen": "1000",
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            },
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            }
+          },
+          "vboxnet15": {
+            "tx": {
+              "queuelen": "1000",
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            },
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            }
+          },
+          "vboxnet16": {
+            "tx": {
+              "queuelen": "1000",
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            },
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            }
+          },
+          "vboxnet17": {
+            "tx": {
+              "queuelen": "1000",
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            },
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            }
+          },
+          "vboxnet18": {
+            "tx": {
+              "queuelen": "1000",
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            },
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            }
+          },
+          "vboxnet19": {
+            "tx": {
+              "queuelen": "1000",
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            },
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            }
+          },
+          "vboxnet2": {
+            "tx": {
+              "queuelen": "1000",
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            },
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            }
+          },
+          "vboxnet20": {
+            "tx": {
+              "queuelen": "1000",
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            },
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            }
+          },
+          "vboxnet21": {
+            "tx": {
+              "queuelen": "1000",
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            },
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            }
+          },
+          "vboxnet22": {
+            "tx": {
+              "queuelen": "1000",
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            },
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            }
+          },
+          "vboxnet23": {
+            "tx": {
+              "queuelen": "1000",
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            },
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            }
+          },
+          "vboxnet24": {
+            "tx": {
+              "queuelen": "1000",
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            },
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            }
+          },
+          "vboxnet25": {
+            "tx": {
+              "queuelen": "1000",
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            },
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            }
+          },
+          "vboxnet26": {
+            "tx": {
+              "queuelen": "1000",
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            },
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            }
+          },
+          "vboxnet27": {
+            "tx": {
+              "queuelen": "1000",
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            },
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            }
+          },
+          "vboxnet28": {
+            "tx": {
+              "queuelen": "1000",
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            },
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            }
+          },
+          "vboxnet29": {
+            "tx": {
+              "queuelen": "1000",
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            },
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            }
+          },
+          "vboxnet3": {
+            "tx": {
+              "queuelen": "1000",
+              "bytes": "929705",
+              "packets": "3016",
+              "errors": "0",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            },
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            }
+          },
+          "vboxnet30": {
+            "tx": {
+              "queuelen": "1000",
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            },
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            }
+          },
+          "vboxnet31": {
+            "tx": {
+              "queuelen": "1000",
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            },
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            }
+          },
+          "vboxnet32": {
+            "tx": {
+              "queuelen": "1000",
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            },
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            }
+          },
+          "vboxnet33": {
+            "tx": {
+              "queuelen": "1000",
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            },
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            }
+          },
+          "vboxnet34": {
+            "tx": {
+              "queuelen": "1000",
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            },
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            }
+          },
+          "vboxnet35": {
+            "tx": {
+              "queuelen": "1000",
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            },
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            }
+          },
+          "vboxnet36": {
+            "tx": {
+              "queuelen": "1000",
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            },
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            }
+          },
+          "vboxnet37": {
+            "tx": {
+              "queuelen": "1000",
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            },
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            }
+          },
+          "vboxnet38": {
+            "tx": {
+              "queuelen": "1000",
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            },
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            }
+          },
+          "vboxnet39": {
+            "tx": {
+              "queuelen": "1000",
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            },
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            }
+          },
+          "vboxnet4": {
+            "tx": {
+              "queuelen": "1000",
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            },
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            }
+          },
+          "vboxnet40": {
+            "tx": {
+              "queuelen": "1000",
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            },
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            }
+          },
+          "vboxnet41": {
+            "tx": {
+              "queuelen": "1000",
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            },
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            }
+          },
+          "vboxnet42": {
+            "tx": {
+              "queuelen": "1000",
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            },
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            }
+          },
+          "vboxnet43": {
+            "tx": {
+              "queuelen": "1000",
+              "bytes": "730162",
+              "packets": "2523",
+              "errors": "0",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            },
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            }
+          },
+          "vboxnet5": {
+            "tx": {
+              "queuelen": "1000",
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            },
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            }
+          },
+          "vboxnet6": {
+            "tx": {
+              "queuelen": "1000",
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            },
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            }
+          },
+          "vboxnet7": {
+            "tx": {
+              "queuelen": "1000",
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            },
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            }
+          },
+          "vboxnet8": {
+            "tx": {
+              "queuelen": "1000",
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            },
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            }
+          },
+          "vboxnet9": {
+            "tx": {
+              "queuelen": "1000",
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            },
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            }
+          },
+          "vboxnet44": {
+            "tx": {
+              "queuelen": "1000",
+              "bytes": "533157",
+              "packets": "1878",
+              "errors": "0",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            },
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            }
+          },
+          "vboxnet45": {
+            "tx": {
+              "queuelen": "1000",
+              "bytes": "557824",
+              "packets": "2144",
+              "errors": "0",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            },
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            }
+          },
+          "br-a0cbe17ed5d1": {
+            "rx": {
+              "bytes": "270653",
+              "packets": "1188",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            },
+            "tx": {
+              "bytes": "1643242",
+              "packets": "1487",
+              "errors": "0",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            }
+          },
+          "vboxnet46": {
+            "tx": {
+              "queuelen": "1000",
+              "bytes": "955583",
+              "packets": "3375",
+              "errors": "0",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            },
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            }
+          },
+          "eth0": {
+            "tx": {
+              "queuelen": "1000",
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            },
+            "rx": {
+              "bytes": "0",
+              "packets": "0",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            }
+          },
+          "veth8c30bff": {
+            "rx": {
+              "bytes": "2420664",
+              "packets": "775",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            },
+            "tx": {
+              "bytes": "94995",
+              "packets": "807",
+              "errors": "0",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            }
+          },
+          "vethc92e4fe": {
+            "rx": {
+              "bytes": "1432",
+              "packets": "18",
+              "errors": "0",
+              "drop": "0",
+              "overrun": "0"
+            },
+            "tx": {
+              "bytes": "12846",
+              "packets": "92",
+              "errors": "0",
+              "drop": "0",
+              "carrier": "0",
+              "collisions": "0"
+            }
+          }
+        }
+      }
+    },
+    "ipaddress": "192.168.1.89",
+    "macaddress": "08:ED:B9:92:8C:FF",
+    "ip6address": "fe80::42:d2ff:fe19:140d",
+    "memory": {
+      "swap": {
+        "cached": "106032kB",
+        "total": "7961596kB",
+        "free": "7156396kB"
+      },
+      "total": "8040468kB",
+      "free": "1308092kB",
+      "buffers": "213124kB",
+      "cached": "2844204kB",
+      "active": "3362076kB",
+      "inactive": "2381456kB",
+      "dirty": "156kB",
+      "writeback": "0kB",
+      "anon_pages": "2657052kB",
+      "mapped": "1333596kB",
+      "slab": "308756kB",
+      "slab_reclaimable": "233652kB",
+      "slab_unreclaim": "75104kB",
+      "page_tables": "71384kB",
+      "nfs_unstable": "0kB",
+      "bounce": "0kB",
+      "commit_limit": "11981828kB",
+      "committed_as": "13939624kB",
+      "vmalloc_total": "34359738367kB",
+      "vmalloc_used": "371232kB",
+      "vmalloc_chunk": "34359319552kB"
+    },
+    "chef_packages": {
+      "chef": {
+        "version": "12.8.1",
+        "chef_root": "/opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/chef-12.8.1/lib"
+      },
+      "ohai": {
+        "version": "8.12.1",
+        "ohai_root": "/opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/ohai-8.12.1/lib/ohai"
+      }
+    },
+    "hostname": "laptop-car",
+    "machinename": "laptop-car",
+    "fqdn": "laptop-car",
+    "domain": null,
+    "dmi": {
+      "dmidecode_version": "2.12"
+    },
+    "uptime_seconds": 372211,
+    "uptime": "4 days 07 hours 23 minutes 31 seconds",
+    "idletime_seconds": 641535,
+    "idletime": "7 days 10 hours 12 minutes 15 seconds",
+    "keys": {
+      "ssh": {
+        "host_rsa_public": "AAAAB3NzaC1yc2EAAAADAQABAAABAQDY8FTQnJuGC4XtjqN11RKhvkErRk1zwCqMylSUDkQVRXpkbYkydTDnkEjHrf00QkBpLd+clxmbAM70L+C0hDOjhR1YG8ueidVW04w43tuKTQOf+TDoWVVdUh+x3w/Fth1IoEuYgp9lNoHcXBj+k8osDJkdA+h+vMCCpwkYl/ifFq+VsEem4z0xSOXyRdzL3cDHJvRdIGhnCEoHAVNxj18I6UL7QmfX/EuGrRB9+1hop1EJvxTBcxO0sDxvAbT6pC7r2Eq+gOk4Zv0XXjLFr9W68aUmlj2xL4M48bGa0jm7I5idBG+97KjEKNC4PgDUny65vY9FO0WiFXRQGABtlh4z",
+        "host_dsa_public": "AAAAB3NzaC1kc3MAAACBAIkZrPr34edYkqeqUlmJajqUwmy/ZnpUpsY2ob14SVfj29RusdR56T9bf0VhNcm6/lt7e1qR+14NxtJbOLD5RbicJ/UrOnlnfllKxEacb4C50J9gn3wMRPDv2URD7mEbmwNULn3POpce5KXoIyWiSCtj8HyiZfk7PCA1jz5ewa89AAAAFQCeTUf75T7st0KYxOeDipG5hIBD1wAAAIBiJKm+uFoGEdzXj/DqVwmOyviytPWAXFdOANLhcXMoC/3Urj0qMPMSvCkqF0nf/4lWxSwWRZoiN9PbMfVsiZ2heAwwHvxhPbnw7gIVQEDjWfTlBp9Po95loTCD0z7UZ7fZDj9zF92zsuOb+wW5IpqOThDCUfD+aj0Ab0f+9jXC0wAAAIBdJKo+9jTwUYXJkP8YrQgLwgrdeIw10xB3xjzvWm2iA1uThsewfcqlekGMIGS+cleGsVGB7xUl8htI7+oh1EzRktPbxyvagGXwAgXekHKVLNlPD0/P8Mgw4MVUfNxVDsZG/CPV2mV0sbzxsa5cnOyA/kH8om/AeuFyH8lY/EYiLg==",
+        "host_ecdsa_public": "AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBG851+m8eUGBnsuGwV6otrptKOPlp4J2NlU5wwPl2nh5E6UCU64iR1xu95vZeYm2hrc8PJhQAMDFTPrYcY7g1oc=",
+        "host_ecdsa_type": "ecdsa-sha2-nistp256",
+        "host_ed25519_public": "AAAAC3NzaC1lZDI1NTE5AAAAIBe1kmIhQkNoVImaT/krwzaVAQzmbXgQ2viTM9AW85JM"
+      }
+    },
+    "cloud_v2": null,
+    "command": {
+      "ps": "ps -ef"
+    },
+    "filesystem2": {
+      "by_device": {
+        "udev": {
+          "kb_size": "4009224",
+          "kb_used": "12",
+          "kb_available": "4009212",
+          "percent_used": "1%",
+          "total_inodes": "1002306",
+          "inodes_used": "553",
+          "inodes_available": "1001753",
+          "inodes_percent_used": "1%",
+          "fs_type": "devtmpfs",
+          "mount_options": [
+            "rw",
+            "mode=0755"
+          ],
+          "mounts": [
+            "/dev"
+          ]
+        },
+        "tmpfs": {
+          "kb_size": "804048",
+          "kb_used": "1844",
+          "kb_available": "802204",
+          "percent_used": "1%",
+          "total_inodes": "1005058",
+          "inodes_used": "961",
+          "inodes_available": "1004097",
+          "inodes_percent_used": "1%",
+          "fs_type": "tmpfs",
+          "mount_options": [
+            "rw",
+            "relatime",
+            "size=100k",
+            "mode=700"
+          ],
+          "mounts": [
+            "/run",
+            "/run/lxcfs/controllers"
+          ]
+        },
+        "/dev/sdb1": {
+          "kb_size": "30643136",
+          "kb_used": "26778248",
+          "kb_available": "2285268",
+          "percent_used": "93%",
+          "total_inodes": "1954064",
+          "inodes_used": "1825669",
+          "inodes_available": "128395",
+          "inodes_percent_used": "94%",
+          "fs_type": "ext4",
+          "mount_options": [
+            "rw",
+            "discard",
+            "errors=remount-ro"
+          ],
+          "mounts": [
+            "/"
+          ]
+        },
+        "none": {
+          "kb_size": "23900028",
+          "kb_used": "20420772",
+          "kb_available": "2242164",
+          "percent_used": "91%",
+          "total_inodes": "1525920",
+          "inodes_used": "490274",
+          "inodes_available": "1035646",
+          "inodes_percent_used": "33%",
+          "fs_type": "pstore",
+          "mount_options": [
+            "rw"
+          ],
+          "mounts": [
+            "/sys/fs/cgroup",
+            "/run/lock",
+            "/run/shm",
+            "/run/user",
+            "/var/lib/docker/aufs/mnt/474b4c939059f06bdd71626fe9be0927b8edae3396fa4b7e1aa5a3d08c199973",
+            "/var/lib/docker/aufs/mnt/4c4b76901d86f47f163bd91febfe165014e9fd76da2e9333cfe9bb477d4fcd4e",
+            "/sys/fs/fuse/connections",
+            "/sys/kernel/debug",
+            "/sys/kernel/security",
+            "/sys/firmware/efi/efivars",
+            "/sys/fs/pstore"
+          ]
+        },
+        "/dev/sda1": {
+          "kb_size": "37289",
+          "kb_used": "2599",
+          "kb_available": "34691",
+          "percent_used": "7%",
+          "fs_type": "vfat",
+          "mount_options": [
+            "rw"
+          ],
+          "mounts": [
+            "/boot/efi"
+          ]
+        },
+        "/dev/sda2": {
+          "kb_size": "23900028",
+          "kb_used": "20420772",
+          "kb_available": "2242164",
+          "percent_used": "91%",
+          "total_inodes": "1525920",
+          "inodes_used": "490274",
+          "inodes_available": "1035646",
+          "inodes_percent_used": "33%",
+          "fs_type": "ext4",
+          "mount_options": [
+            "rw",
+            "relatime",
+            "data=ordered"
+          ],
+          "mounts": [
+            "/var",
+            "/var/lib/docker/aufs"
+          ]
+        },
+        "/dev/sda3": {
+          "kb_size": "448684832",
+          "kb_used": "393264844",
+          "kb_available": "32605064",
+          "percent_used": "93%",
+          "total_inodes": "28499968",
+          "inodes_used": "2589875",
+          "inodes_available": "25910093",
+          "inodes_percent_used": "10%",
+          "fs_type": "ext4",
+          "mount_options": [
+            "rw"
+          ],
+          "mounts": [
+            "/home"
+          ]
+        },
+        "proc": {
+          "fs_type": "proc",
+          "mount_options": [
+            "rw",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "relatime"
+          ],
+          "mounts": [
+            "/proc",
+            "/run/docker/netns/18e607f47f67",
+            "/run/docker/netns/70396bb94687"
+          ]
+        },
+        "sysfs": {
+          "fs_type": "sysfs",
+          "mount_options": [
+            "rw",
+            "noexec",
+            "nosuid",
+            "nodev"
+          ],
+          "mounts": [
+            "/sys"
+          ]
+        },
+        "devpts": {
+          "fs_type": "devpts",
+          "mount_options": [
+            "rw",
+            "noexec",
+            "nosuid",
+            "gid=5",
+            "mode=0620"
+          ],
+          "mounts": [
+            "/dev/pts"
+          ]
+        },
+        "cgroup": {
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "relatime",
+            "hugetlb",
+            "release_agent=/run/cgmanager/agents/cgm-release-agent.hugetlb"
+          ],
+          "mounts": [
+            "/sys/fs/cgroup/cpuset",
+            "/sys/fs/cgroup/cpu",
+            "/sys/fs/cgroup/cpuacct",
+            "/sys/fs/cgroup/memory",
+            "/sys/fs/cgroup/devices",
+            "/sys/fs/cgroup/freezer",
+            "/sys/fs/cgroup/blkio",
+            "/sys/fs/cgroup/perf_event",
+            "/sys/fs/cgroup/hugetlb"
+          ]
+        },
+        "name=systemd": {
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "relatime",
+            "release_agent=/run/cgmanager/agents/cgm-release-agent.systemd",
+            "name=systemd"
+          ],
+          "mounts": [
+            "/sys/fs/cgroup/systemd",
+            "/run/lxcfs/controllers/name=systemd"
+          ]
+        },
+        "binfmt_misc": {
+          "fs_type": "binfmt_misc",
+          "mount_options": [
+            "rw",
+            "noexec",
+            "nosuid",
+            "nodev"
+          ],
+          "mounts": [
+            "/proc/sys/fs/binfmt_misc"
+          ]
+        },
+        "rpc_pipefs": {
+          "fs_type": "rpc_pipefs",
+          "mount_options": [
+            "rw"
+          ],
+          "mounts": [
+            "/run/rpc_pipefs"
+          ]
+        },
+        "lxcfs": {
+          "fs_type": "fuse.lxcfs",
+          "mount_options": [
+            "rw",
+            "nosuid",
+            "nodev",
+            "allow_other"
+          ],
+          "mounts": [
+            "/var/lib/lxcfs"
+          ]
+        },
+        "gvfsd-fuse": {
+          "fs_type": "fuse.gvfsd-fuse",
+          "mount_options": [
+            "rw",
+            "nosuid",
+            "nodev",
+            "user=car"
+          ],
+          "mounts": [
+            "/run/user/1000/gvfs"
+          ]
+        },
+        "/dev/sda": {
+          "mounts": [
+
+          ]
+        },
+        "/dev/sda4": {
+          "mounts": [
+
+          ]
+        },
+        "/dev/sdb": {
+          "mounts": [
+
+          ]
+        },
+        "/dev/sr0": {
+          "mounts": [
+
+          ]
+        },
+        "rootfs": {
+          "fs_type": "rootfs",
+          "mount_options": [
+            "rw"
+          ],
+          "mounts": [
+            "/"
+          ]
+        },
+        "hugetlb": {
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "relatime",
+            "hugetlb",
+            "release_agent=/run/cgmanager/agents/cgm-release-agent.hugetlb"
+          ],
+          "mounts": [
+            "/run/lxcfs/controllers/hugetlb"
+          ]
+        },
+        "perf_event": {
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "relatime",
+            "perf_event",
+            "release_agent=/run/cgmanager/agents/cgm-release-agent.perf_event"
+          ],
+          "mounts": [
+            "/run/lxcfs/controllers/perf_event"
+          ]
+        },
+        "blkio": {
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "relatime",
+            "blkio",
+            "release_agent=/run/cgmanager/agents/cgm-release-agent.blkio"
+          ],
+          "mounts": [
+            "/run/lxcfs/controllers/blkio"
+          ]
+        },
+        "freezer": {
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "relatime",
+            "freezer",
+            "release_agent=/run/cgmanager/agents/cgm-release-agent.freezer"
+          ],
+          "mounts": [
+            "/run/lxcfs/controllers/freezer"
+          ]
+        },
+        "devices": {
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "relatime",
+            "devices",
+            "release_agent=/run/cgmanager/agents/cgm-release-agent.devices"
+          ],
+          "mounts": [
+            "/run/lxcfs/controllers/devices"
+          ]
+        },
+        "memory": {
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "relatime",
+            "memory",
+            "release_agent=/run/cgmanager/agents/cgm-release-agent.memory"
+          ],
+          "mounts": [
+            "/run/lxcfs/controllers/memory"
+          ]
+        },
+        "cpuacct": {
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "relatime",
+            "cpuacct",
+            "release_agent=/run/cgmanager/agents/cgm-release-agent.cpuacct"
+          ],
+          "mounts": [
+            "/run/lxcfs/controllers/cpuacct"
+          ]
+        },
+        "cpu": {
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "relatime",
+            "cpu",
+            "release_agent=/run/cgmanager/agents/cgm-release-agent.cpu"
+          ],
+          "mounts": [
+            "/run/lxcfs/controllers/cpu"
+          ]
+        },
+        "cpuset": {
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "relatime",
+            "cpuset",
+            "release_agent=/run/cgmanager/agents/cgm-release-agent.cpuset",
+            "clone_children"
+          ],
+          "mounts": [
+            "/run/lxcfs/controllers/cpuset"
+          ]
+        },
+        "shm": {
+          "fs_type": "tmpfs",
+          "mount_options": [
+            "rw",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "relatime",
+            "size=65536k"
+          ],
+          "mounts": [
+            "/var/lib/docker/containers/79120bc8c9e7d57bc251e34e85eb284620ca1c7ddb22a00b929e84ad6dfa0e4a/shm",
+            "/var/lib/docker/containers/62092b77e2ac3d2d833271fed590a14415f32ebc2215fa3b4ffe6ca5db707a69/shm"
+          ]
+        }
+      },
+      "by_mountpoint": {
+        "/dev": {
+          "kb_size": "4009224",
+          "kb_used": "12",
+          "kb_available": "4009212",
+          "percent_used": "1%",
+          "total_inodes": "1002306",
+          "inodes_used": "553",
+          "inodes_available": "1001753",
+          "inodes_percent_used": "1%",
+          "fs_type": "devtmpfs",
+          "mount_options": [
+            "rw",
+            "mode=0755"
+          ],
+          "devices": [
+            "udev"
+          ]
+        },
+        "/run": {
+          "kb_size": "804048",
+          "kb_used": "1844",
+          "kb_available": "802204",
+          "percent_used": "1%",
+          "total_inodes": "1005058",
+          "inodes_used": "961",
+          "inodes_available": "1004097",
+          "inodes_percent_used": "1%",
+          "fs_type": "tmpfs",
+          "mount_options": [
+            "rw",
+            "noexec",
+            "nosuid",
+            "size=10%",
+            "mode=0755"
+          ],
+          "devices": [
+            "tmpfs"
+          ]
+        },
+        "/": {
+          "kb_size": "30643136",
+          "kb_used": "26778248",
+          "kb_available": "2285268",
+          "percent_used": "93%",
+          "total_inodes": "1954064",
+          "inodes_used": "1825669",
+          "inodes_available": "128395",
+          "inodes_percent_used": "94%",
+          "fs_type": "rootfs",
+          "mount_options": [
+            "rw"
+          ],
+          "devices": [
+            "/dev/sdb1",
+            "rootfs"
+          ]
+        },
+        "/sys/fs/cgroup": {
+          "kb_size": "4",
+          "kb_used": "0",
+          "kb_available": "4",
+          "percent_used": "0%",
+          "total_inodes": "1005058",
+          "inodes_used": "13",
+          "inodes_available": "1005045",
+          "inodes_percent_used": "1%",
+          "fs_type": "tmpfs",
+          "mount_options": [
+            "rw"
+          ],
+          "devices": [
+            "none"
+          ]
+        },
+        "/run/lock": {
+          "kb_size": "5120",
+          "kb_used": "0",
+          "kb_available": "5120",
+          "percent_used": "0%",
+          "total_inodes": "1005058",
+          "inodes_used": "3",
+          "inodes_available": "1005055",
+          "inodes_percent_used": "1%",
+          "fs_type": "tmpfs",
+          "mount_options": [
+            "rw",
+            "noexec",
+            "nosuid",
+            "nodev",
+            "size=5242880"
+          ],
+          "devices": [
+            "none"
+          ]
+        },
+        "/run/shm": {
+          "kb_size": "4020232",
+          "kb_used": "498432",
+          "kb_available": "3521800",
+          "percent_used": "13%",
+          "total_inodes": "1005058",
+          "inodes_used": "126",
+          "inodes_available": "1004932",
+          "inodes_percent_used": "1%",
+          "fs_type": "tmpfs",
+          "mount_options": [
+            "rw",
+            "nosuid",
+            "nodev"
+          ],
+          "devices": [
+            "none"
+          ]
+        },
+        "/run/user": {
+          "kb_size": "102400",
+          "kb_used": "84",
+          "kb_available": "102316",
+          "percent_used": "1%",
+          "total_inodes": "1005058",
+          "inodes_used": "41",
+          "inodes_available": "1005017",
+          "inodes_percent_used": "1%",
+          "fs_type": "tmpfs",
+          "mount_options": [
+            "rw",
+            "noexec",
+            "nosuid",
+            "nodev",
+            "size=104857600",
+            "mode=0755"
+          ],
+          "devices": [
+            "none"
+          ]
+        },
+        "/boot/efi": {
+          "kb_size": "37289",
+          "kb_used": "2599",
+          "kb_available": "34691",
+          "percent_used": "7%",
+          "fs_type": "vfat",
+          "mount_options": [
+            "rw"
+          ],
+          "devices": [
+            "/dev/sda1"
+          ]
+        },
+        "/var": {
+          "kb_size": "23900028",
+          "kb_used": "20420772",
+          "kb_available": "2242164",
+          "percent_used": "91%",
+          "total_inodes": "1525920",
+          "inodes_used": "490274",
+          "inodes_available": "1035646",
+          "inodes_percent_used": "33%",
+          "fs_type": "ext4",
+          "mount_options": [
+            "rw"
+          ],
+          "devices": [
+            "/dev/sda2"
+          ]
+        },
+        "/home": {
+          "kb_size": "448684832",
+          "kb_used": "393264844",
+          "kb_available": "32605064",
+          "percent_used": "93%",
+          "total_inodes": "28499968",
+          "inodes_used": "2589875",
+          "inodes_available": "25910093",
+          "inodes_percent_used": "10%",
+          "fs_type": "ext4",
+          "mount_options": [
+            "rw"
+          ],
+          "devices": [
+            "/dev/sda3"
+          ]
+        },
+        "/var/lib/docker/aufs/mnt/474b4c939059f06bdd71626fe9be0927b8edae3396fa4b7e1aa5a3d08c199973": {
+          "kb_size": "23900028",
+          "kb_used": "20420772",
+          "kb_available": "2242164",
+          "percent_used": "91%",
+          "total_inodes": "1525920",
+          "inodes_used": "490274",
+          "inodes_available": "1035646",
+          "inodes_percent_used": "33%",
+          "devices": [
+            "none"
+          ]
+        },
+        "/var/lib/docker/aufs/mnt/4c4b76901d86f47f163bd91febfe165014e9fd76da2e9333cfe9bb477d4fcd4e": {
+          "kb_size": "23900028",
+          "kb_used": "20420772",
+          "kb_available": "2242164",
+          "percent_used": "91%",
+          "total_inodes": "1525920",
+          "inodes_used": "490274",
+          "inodes_available": "1035646",
+          "inodes_percent_used": "33%",
+          "devices": [
+            "none"
+          ]
+        },
+        "/proc": {
+          "fs_type": "proc",
+          "mount_options": [
+            "rw",
+            "noexec",
+            "nosuid",
+            "nodev"
+          ],
+          "devices": [
+            "proc"
+          ]
+        },
+        "/sys": {
+          "fs_type": "sysfs",
+          "mount_options": [
+            "rw",
+            "noexec",
+            "nosuid",
+            "nodev"
+          ],
+          "devices": [
+            "sysfs"
+          ]
+        },
+        "/sys/fs/fuse/connections": {
+          "fs_type": "fusectl",
+          "mount_options": [
+            "rw"
+          ],
+          "devices": [
+            "none"
+          ]
+        },
+        "/sys/kernel/debug": {
+          "fs_type": "debugfs",
+          "mount_options": [
+            "rw"
+          ],
+          "devices": [
+            "none"
+          ]
+        },
+        "/sys/kernel/security": {
+          "fs_type": "securityfs",
+          "mount_options": [
+            "rw"
+          ],
+          "devices": [
+            "none"
+          ]
+        },
+        "/sys/firmware/efi/efivars": {
+          "fs_type": "efivarfs",
+          "mount_options": [
+            "rw"
+          ],
+          "devices": [
+            "none"
+          ]
+        },
+        "/dev/pts": {
+          "fs_type": "devpts",
+          "mount_options": [
+            "rw",
+            "noexec",
+            "nosuid",
+            "gid=5",
+            "mode=0620"
+          ],
+          "devices": [
+            "devpts"
+          ]
+        },
+        "/sys/fs/pstore": {
+          "fs_type": "pstore",
+          "mount_options": [
+            "rw"
+          ],
+          "devices": [
+            "none"
+          ]
+        },
+        "/sys/fs/cgroup/cpuset": {
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "relatime",
+            "cpuset"
+          ],
+          "devices": [
+            "cgroup"
+          ]
+        },
+        "/sys/fs/cgroup/cpu": {
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "relatime",
+            "cpu"
+          ],
+          "devices": [
+            "cgroup"
+          ]
+        },
+        "/sys/fs/cgroup/cpuacct": {
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "relatime",
+            "cpuacct"
+          ],
+          "devices": [
+            "cgroup"
+          ]
+        },
+        "/sys/fs/cgroup/memory": {
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "relatime",
+            "memory"
+          ],
+          "devices": [
+            "cgroup"
+          ]
+        },
+        "/sys/fs/cgroup/devices": {
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "relatime",
+            "devices",
+            "release_agent=/run/cgmanager/agents/cgm-release-agent.devices"
+          ],
+          "devices": [
+            "cgroup"
+          ]
+        },
+        "/sys/fs/cgroup/freezer": {
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "relatime",
+            "freezer",
+            "release_agent=/run/cgmanager/agents/cgm-release-agent.freezer"
+          ],
+          "devices": [
+            "cgroup"
+          ]
+        },
+        "/sys/fs/cgroup/blkio": {
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "relatime",
+            "blkio",
+            "release_agent=/run/cgmanager/agents/cgm-release-agent.blkio"
+          ],
+          "devices": [
+            "cgroup"
+          ]
+        },
+        "/sys/fs/cgroup/perf_event": {
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "relatime",
+            "perf_event",
+            "release_agent=/run/cgmanager/agents/cgm-release-agent.perf_event"
+          ],
+          "devices": [
+            "cgroup"
+          ]
+        },
+        "/sys/fs/cgroup/hugetlb": {
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "relatime",
+            "hugetlb",
+            "release_agent=/run/cgmanager/agents/cgm-release-agent.hugetlb"
+          ],
+          "devices": [
+            "cgroup"
+          ]
+        },
+        "/sys/fs/cgroup/systemd": {
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "relatime",
+            "release_agent=/run/cgmanager/agents/cgm-release-agent.systemd",
+            "name=systemd"
+          ],
+          "devices": [
+            "name=systemd"
+          ]
+        },
+        "/proc/sys/fs/binfmt_misc": {
+          "fs_type": "binfmt_misc",
+          "mount_options": [
+            "rw",
+            "noexec",
+            "nosuid",
+            "nodev"
+          ],
+          "devices": [
+            "binfmt_misc"
+          ]
+        },
+        "/run/rpc_pipefs": {
+          "fs_type": "rpc_pipefs",
+          "mount_options": [
+            "rw"
+          ],
+          "devices": [
+            "rpc_pipefs"
+          ]
+        },
+        "/var/lib/lxcfs": {
+          "fs_type": "fuse.lxcfs",
+          "mount_options": [
+            "rw",
+            "nosuid",
+            "nodev",
+            "allow_other"
+          ],
+          "devices": [
+            "lxcfs"
+          ]
+        },
+        "/run/user/1000/gvfs": {
+          "fs_type": "fuse.gvfsd-fuse",
+          "mount_options": [
+            "rw",
+            "nosuid",
+            "nodev",
+            "user=car"
+          ],
+          "devices": [
+            "gvfsd-fuse"
+          ]
+        },
+        "/run/lxcfs/controllers": {
+          "fs_type": "tmpfs",
+          "mount_options": [
+            "rw",
+            "relatime",
+            "size=100k",
+            "mode=700"
+          ],
+          "devices": [
+            "tmpfs"
+          ]
+        },
+        "/run/lxcfs/controllers/hugetlb": {
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "relatime",
+            "hugetlb",
+            "release_agent=/run/cgmanager/agents/cgm-release-agent.hugetlb"
+          ],
+          "devices": [
+            "hugetlb"
+          ]
+        },
+        "/run/lxcfs/controllers/perf_event": {
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "relatime",
+            "perf_event",
+            "release_agent=/run/cgmanager/agents/cgm-release-agent.perf_event"
+          ],
+          "devices": [
+            "perf_event"
+          ]
+        },
+        "/run/lxcfs/controllers/blkio": {
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "relatime",
+            "blkio",
+            "release_agent=/run/cgmanager/agents/cgm-release-agent.blkio"
+          ],
+          "devices": [
+            "blkio"
+          ]
+        },
+        "/run/lxcfs/controllers/freezer": {
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "relatime",
+            "freezer",
+            "release_agent=/run/cgmanager/agents/cgm-release-agent.freezer"
+          ],
+          "devices": [
+            "freezer"
+          ]
+        },
+        "/run/lxcfs/controllers/devices": {
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "relatime",
+            "devices",
+            "release_agent=/run/cgmanager/agents/cgm-release-agent.devices"
+          ],
+          "devices": [
+            "devices"
+          ]
+        },
+        "/run/lxcfs/controllers/name=systemd": {
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "relatime",
+            "release_agent=/run/cgmanager/agents/cgm-release-agent.systemd",
+            "name=systemd"
+          ],
+          "devices": [
+            "name=systemd"
+          ]
+        },
+        "/run/lxcfs/controllers/memory": {
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "relatime",
+            "memory",
+            "release_agent=/run/cgmanager/agents/cgm-release-agent.memory"
+          ],
+          "devices": [
+            "memory"
+          ]
+        },
+        "/run/lxcfs/controllers/cpuacct": {
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "relatime",
+            "cpuacct",
+            "release_agent=/run/cgmanager/agents/cgm-release-agent.cpuacct"
+          ],
+          "devices": [
+            "cpuacct"
+          ]
+        },
+        "/run/lxcfs/controllers/cpu": {
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "relatime",
+            "cpu",
+            "release_agent=/run/cgmanager/agents/cgm-release-agent.cpu"
+          ],
+          "devices": [
+            "cpu"
+          ]
+        },
+        "/run/lxcfs/controllers/cpuset": {
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "relatime",
+            "cpuset",
+            "release_agent=/run/cgmanager/agents/cgm-release-agent.cpuset",
+            "clone_children"
+          ],
+          "devices": [
+            "cpuset"
+          ]
+        },
+        "/var/lib/docker/aufs": {
+          "fs_type": "ext4",
+          "mount_options": [
+            "rw",
+            "relatime",
+            "data=ordered"
+          ],
+          "devices": [
+            "/dev/sda2"
+          ]
+        },
+        "/var/lib/docker/containers/79120bc8c9e7d57bc251e34e85eb284620ca1c7ddb22a00b929e84ad6dfa0e4a/shm": {
+          "fs_type": "tmpfs",
+          "mount_options": [
+            "rw",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "relatime",
+            "size=65536k"
+          ],
+          "devices": [
+            "shm"
+          ]
+        },
+        "/run/docker/netns/18e607f47f67": {
+          "fs_type": "proc",
+          "mount_options": [
+            "rw",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "relatime"
+          ],
+          "devices": [
+            "proc"
+          ]
+        },
+        "/var/lib/docker/containers/62092b77e2ac3d2d833271fed590a14415f32ebc2215fa3b4ffe6ca5db707a69/shm": {
+          "fs_type": "tmpfs",
+          "mount_options": [
+            "rw",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "relatime",
+            "size=65536k"
+          ],
+          "devices": [
+            "shm"
+          ]
+        },
+        "/run/docker/netns/70396bb94687": {
+          "fs_type": "proc",
+          "mount_options": [
+            "rw",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "relatime"
+          ],
+          "devices": [
+            "proc"
+          ]
+        }
+      },
+      "by_pair": {
+        "udev,/dev": {
+          "device": "udev",
+          "kb_size": "4009224",
+          "kb_used": "12",
+          "kb_available": "4009212",
+          "percent_used": "1%",
+          "mount": "/dev",
+          "total_inodes": "1002306",
+          "inodes_used": "553",
+          "inodes_available": "1001753",
+          "inodes_percent_used": "1%",
+          "fs_type": "devtmpfs",
+          "mount_options": [
+            "rw",
+            "mode=0755"
+          ]
+        },
+        "tmpfs,/run": {
+          "device": "tmpfs",
+          "kb_size": "804048",
+          "kb_used": "1844",
+          "kb_available": "802204",
+          "percent_used": "1%",
+          "mount": "/run",
+          "total_inodes": "1005058",
+          "inodes_used": "961",
+          "inodes_available": "1004097",
+          "inodes_percent_used": "1%",
+          "fs_type": "tmpfs",
+          "mount_options": [
+            "rw",
+            "noexec",
+            "nosuid",
+            "size=10%",
+            "mode=0755"
+          ]
+        },
+        "/dev/sdb1,/": {
+          "device": "/dev/sdb1",
+          "kb_size": "30643136",
+          "kb_used": "26778248",
+          "kb_available": "2285268",
+          "percent_used": "93%",
+          "mount": "/",
+          "total_inodes": "1954064",
+          "inodes_used": "1825669",
+          "inodes_available": "128395",
+          "inodes_percent_used": "94%",
+          "fs_type": "ext4",
+          "mount_options": [
+            "rw",
+            "discard",
+            "errors=remount-ro"
+          ]
+        },
+        "none,/sys/fs/cgroup": {
+          "device": "none",
+          "kb_size": "4",
+          "kb_used": "0",
+          "kb_available": "4",
+          "percent_used": "0%",
+          "mount": "/sys/fs/cgroup",
+          "total_inodes": "1005058",
+          "inodes_used": "13",
+          "inodes_available": "1005045",
+          "inodes_percent_used": "1%",
+          "fs_type": "tmpfs",
+          "mount_options": [
+            "rw"
+          ]
+        },
+        "none,/run/lock": {
+          "device": "none",
+          "kb_size": "5120",
+          "kb_used": "0",
+          "kb_available": "5120",
+          "percent_used": "0%",
+          "mount": "/run/lock",
+          "total_inodes": "1005058",
+          "inodes_used": "3",
+          "inodes_available": "1005055",
+          "inodes_percent_used": "1%",
+          "fs_type": "tmpfs",
+          "mount_options": [
+            "rw",
+            "noexec",
+            "nosuid",
+            "nodev",
+            "size=5242880"
+          ]
+        },
+        "none,/run/shm": {
+          "device": "none",
+          "kb_size": "4020232",
+          "kb_used": "498432",
+          "kb_available": "3521800",
+          "percent_used": "13%",
+          "mount": "/run/shm",
+          "total_inodes": "1005058",
+          "inodes_used": "126",
+          "inodes_available": "1004932",
+          "inodes_percent_used": "1%",
+          "fs_type": "tmpfs",
+          "mount_options": [
+            "rw",
+            "nosuid",
+            "nodev"
+          ]
+        },
+        "none,/run/user": {
+          "device": "none",
+          "kb_size": "102400",
+          "kb_used": "84",
+          "kb_available": "102316",
+          "percent_used": "1%",
+          "mount": "/run/user",
+          "total_inodes": "1005058",
+          "inodes_used": "41",
+          "inodes_available": "1005017",
+          "inodes_percent_used": "1%",
+          "fs_type": "tmpfs",
+          "mount_options": [
+            "rw",
+            "noexec",
+            "nosuid",
+            "nodev",
+            "size=104857600",
+            "mode=0755"
+          ]
+        },
+        "/dev/sda1,/boot/efi": {
+          "device": "/dev/sda1",
+          "kb_size": "37289",
+          "kb_used": "2599",
+          "kb_available": "34691",
+          "percent_used": "7%",
+          "mount": "/boot/efi",
+          "fs_type": "vfat",
+          "mount_options": [
+            "rw"
+          ]
+        },
+        "/dev/sda2,/var": {
+          "device": "/dev/sda2",
+          "kb_size": "23900028",
+          "kb_used": "20420772",
+          "kb_available": "2242164",
+          "percent_used": "91%",
+          "mount": "/var",
+          "total_inodes": "1525920",
+          "inodes_used": "490274",
+          "inodes_available": "1035646",
+          "inodes_percent_used": "33%",
+          "fs_type": "ext4",
+          "mount_options": [
+            "rw"
+          ]
+        },
+        "/dev/sda3,/home": {
+          "device": "/dev/sda3",
+          "kb_size": "448684832",
+          "kb_used": "393264844",
+          "kb_available": "32605064",
+          "percent_used": "93%",
+          "mount": "/home",
+          "total_inodes": "28499968",
+          "inodes_used": "2589875",
+          "inodes_available": "25910093",
+          "inodes_percent_used": "10%",
+          "fs_type": "ext4",
+          "mount_options": [
+            "rw"
+          ]
+        },
+        "none,/var/lib/docker/aufs/mnt/474b4c939059f06bdd71626fe9be0927b8edae3396fa4b7e1aa5a3d08c199973": {
+          "device": "none",
+          "kb_size": "23900028",
+          "kb_used": "20420772",
+          "kb_available": "2242164",
+          "percent_used": "91%",
+          "mount": "/var/lib/docker/aufs/mnt/474b4c939059f06bdd71626fe9be0927b8edae3396fa4b7e1aa5a3d08c199973",
+          "total_inodes": "1525920",
+          "inodes_used": "490274",
+          "inodes_available": "1035646",
+          "inodes_percent_used": "33%"
+        },
+        "none,/var/lib/docker/aufs/mnt/4c4b76901d86f47f163bd91febfe165014e9fd76da2e9333cfe9bb477d4fcd4e": {
+          "device": "none",
+          "kb_size": "23900028",
+          "kb_used": "20420772",
+          "kb_available": "2242164",
+          "percent_used": "91%",
+          "mount": "/var/lib/docker/aufs/mnt/4c4b76901d86f47f163bd91febfe165014e9fd76da2e9333cfe9bb477d4fcd4e",
+          "total_inodes": "1525920",
+          "inodes_used": "490274",
+          "inodes_available": "1035646",
+          "inodes_percent_used": "33%"
+        },
+        "proc,/proc": {
+          "device": "proc",
+          "mount": "/proc",
+          "fs_type": "proc",
+          "mount_options": [
+            "rw",
+            "noexec",
+            "nosuid",
+            "nodev"
+          ]
+        },
+        "sysfs,/sys": {
+          "device": "sysfs",
+          "mount": "/sys",
+          "fs_type": "sysfs",
+          "mount_options": [
+            "rw",
+            "noexec",
+            "nosuid",
+            "nodev"
+          ]
+        },
+        "none,/sys/fs/fuse/connections": {
+          "device": "none",
+          "mount": "/sys/fs/fuse/connections",
+          "fs_type": "fusectl",
+          "mount_options": [
+            "rw"
+          ]
+        },
+        "none,/sys/kernel/debug": {
+          "device": "none",
+          "mount": "/sys/kernel/debug",
+          "fs_type": "debugfs",
+          "mount_options": [
+            "rw"
+          ]
+        },
+        "none,/sys/kernel/security": {
+          "device": "none",
+          "mount": "/sys/kernel/security",
+          "fs_type": "securityfs",
+          "mount_options": [
+            "rw"
+          ]
+        },
+        "none,/sys/firmware/efi/efivars": {
+          "device": "none",
+          "mount": "/sys/firmware/efi/efivars",
+          "fs_type": "efivarfs",
+          "mount_options": [
+            "rw"
+          ]
+        },
+        "devpts,/dev/pts": {
+          "device": "devpts",
+          "mount": "/dev/pts",
+          "fs_type": "devpts",
+          "mount_options": [
+            "rw",
+            "noexec",
+            "nosuid",
+            "gid=5",
+            "mode=0620"
+          ]
+        },
+        "none,/sys/fs/pstore": {
+          "device": "none",
+          "mount": "/sys/fs/pstore",
+          "fs_type": "pstore",
+          "mount_options": [
+            "rw"
+          ]
+        },
+        "cgroup,/sys/fs/cgroup/cpuset": {
+          "device": "cgroup",
+          "mount": "/sys/fs/cgroup/cpuset",
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "relatime",
+            "cpuset"
+          ]
+        },
+        "cgroup,/sys/fs/cgroup/cpu": {
+          "device": "cgroup",
+          "mount": "/sys/fs/cgroup/cpu",
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "relatime",
+            "cpu"
+          ]
+        },
+        "cgroup,/sys/fs/cgroup/cpuacct": {
+          "device": "cgroup",
+          "mount": "/sys/fs/cgroup/cpuacct",
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "relatime",
+            "cpuacct"
+          ]
+        },
+        "cgroup,/sys/fs/cgroup/memory": {
+          "device": "cgroup",
+          "mount": "/sys/fs/cgroup/memory",
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "relatime",
+            "memory"
+          ]
+        },
+        "cgroup,/sys/fs/cgroup/devices": {
+          "device": "cgroup",
+          "mount": "/sys/fs/cgroup/devices",
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "relatime",
+            "devices",
+            "release_agent=/run/cgmanager/agents/cgm-release-agent.devices"
+          ]
+        },
+        "cgroup,/sys/fs/cgroup/freezer": {
+          "device": "cgroup",
+          "mount": "/sys/fs/cgroup/freezer",
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "relatime",
+            "freezer",
+            "release_agent=/run/cgmanager/agents/cgm-release-agent.freezer"
+          ]
+        },
+        "cgroup,/sys/fs/cgroup/blkio": {
+          "device": "cgroup",
+          "mount": "/sys/fs/cgroup/blkio",
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "relatime",
+            "blkio",
+            "release_agent=/run/cgmanager/agents/cgm-release-agent.blkio"
+          ]
+        },
+        "cgroup,/sys/fs/cgroup/perf_event": {
+          "device": "cgroup",
+          "mount": "/sys/fs/cgroup/perf_event",
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "relatime",
+            "perf_event",
+            "release_agent=/run/cgmanager/agents/cgm-release-agent.perf_event"
+          ]
+        },
+        "cgroup,/sys/fs/cgroup/hugetlb": {
+          "device": "cgroup",
+          "mount": "/sys/fs/cgroup/hugetlb",
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "relatime",
+            "hugetlb",
+            "release_agent=/run/cgmanager/agents/cgm-release-agent.hugetlb"
+          ]
+        },
+        "name=systemd,/sys/fs/cgroup/systemd": {
+          "device": "name=systemd",
+          "mount": "/sys/fs/cgroup/systemd",
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "relatime",
+            "release_agent=/run/cgmanager/agents/cgm-release-agent.systemd",
+            "name=systemd"
+          ]
+        },
+        "binfmt_misc,/proc/sys/fs/binfmt_misc": {
+          "device": "binfmt_misc",
+          "mount": "/proc/sys/fs/binfmt_misc",
+          "fs_type": "binfmt_misc",
+          "mount_options": [
+            "rw",
+            "noexec",
+            "nosuid",
+            "nodev"
+          ]
+        },
+        "rpc_pipefs,/run/rpc_pipefs": {
+          "device": "rpc_pipefs",
+          "mount": "/run/rpc_pipefs",
+          "fs_type": "rpc_pipefs",
+          "mount_options": [
+            "rw"
+          ]
+        },
+        "lxcfs,/var/lib/lxcfs": {
+          "device": "lxcfs",
+          "mount": "/var/lib/lxcfs",
+          "fs_type": "fuse.lxcfs",
+          "mount_options": [
+            "rw",
+            "nosuid",
+            "nodev",
+            "allow_other"
+          ]
+        },
+        "gvfsd-fuse,/run/user/1000/gvfs": {
+          "device": "gvfsd-fuse",
+          "mount": "/run/user/1000/gvfs",
+          "fs_type": "fuse.gvfsd-fuse",
+          "mount_options": [
+            "rw",
+            "nosuid",
+            "nodev",
+            "user=car"
+          ]
+        },
+        "/dev/sda,": {
+          "device": "/dev/sda"
+        },
+        "/dev/sda4,": {
+          "device": "/dev/sda4"
+        },
+        "/dev/sdb,": {
+          "device": "/dev/sdb"
+        },
+        "/dev/sr0,": {
+          "device": "/dev/sr0"
+        },
+        "rootfs,/": {
+          "device": "rootfs",
+          "mount": "/",
+          "fs_type": "rootfs",
+          "mount_options": [
+            "rw"
+          ]
+        },
+        "tmpfs,/run/lxcfs/controllers": {
+          "device": "tmpfs",
+          "mount": "/run/lxcfs/controllers",
+          "fs_type": "tmpfs",
+          "mount_options": [
+            "rw",
+            "relatime",
+            "size=100k",
+            "mode=700"
+          ]
+        },
+        "hugetlb,/run/lxcfs/controllers/hugetlb": {
+          "device": "hugetlb",
+          "mount": "/run/lxcfs/controllers/hugetlb",
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "relatime",
+            "hugetlb",
+            "release_agent=/run/cgmanager/agents/cgm-release-agent.hugetlb"
+          ]
+        },
+        "perf_event,/run/lxcfs/controllers/perf_event": {
+          "device": "perf_event",
+          "mount": "/run/lxcfs/controllers/perf_event",
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "relatime",
+            "perf_event",
+            "release_agent=/run/cgmanager/agents/cgm-release-agent.perf_event"
+          ]
+        },
+        "blkio,/run/lxcfs/controllers/blkio": {
+          "device": "blkio",
+          "mount": "/run/lxcfs/controllers/blkio",
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "relatime",
+            "blkio",
+            "release_agent=/run/cgmanager/agents/cgm-release-agent.blkio"
+          ]
+        },
+        "freezer,/run/lxcfs/controllers/freezer": {
+          "device": "freezer",
+          "mount": "/run/lxcfs/controllers/freezer",
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "relatime",
+            "freezer",
+            "release_agent=/run/cgmanager/agents/cgm-release-agent.freezer"
+          ]
+        },
+        "devices,/run/lxcfs/controllers/devices": {
+          "device": "devices",
+          "mount": "/run/lxcfs/controllers/devices",
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "relatime",
+            "devices",
+            "release_agent=/run/cgmanager/agents/cgm-release-agent.devices"
+          ]
+        },
+        "name=systemd,/run/lxcfs/controllers/name=systemd": {
+          "device": "name=systemd",
+          "mount": "/run/lxcfs/controllers/name=systemd",
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "relatime",
+            "release_agent=/run/cgmanager/agents/cgm-release-agent.systemd",
+            "name=systemd"
+          ]
+        },
+        "memory,/run/lxcfs/controllers/memory": {
+          "device": "memory",
+          "mount": "/run/lxcfs/controllers/memory",
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "relatime",
+            "memory",
+            "release_agent=/run/cgmanager/agents/cgm-release-agent.memory"
+          ]
+        },
+        "cpuacct,/run/lxcfs/controllers/cpuacct": {
+          "device": "cpuacct",
+          "mount": "/run/lxcfs/controllers/cpuacct",
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "relatime",
+            "cpuacct",
+            "release_agent=/run/cgmanager/agents/cgm-release-agent.cpuacct"
+          ]
+        },
+        "cpu,/run/lxcfs/controllers/cpu": {
+          "device": "cpu",
+          "mount": "/run/lxcfs/controllers/cpu",
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "relatime",
+            "cpu",
+            "release_agent=/run/cgmanager/agents/cgm-release-agent.cpu"
+          ]
+        },
+        "cpuset,/run/lxcfs/controllers/cpuset": {
+          "device": "cpuset",
+          "mount": "/run/lxcfs/controllers/cpuset",
+          "fs_type": "cgroup",
+          "mount_options": [
+            "rw",
+            "relatime",
+            "cpuset",
+            "release_agent=/run/cgmanager/agents/cgm-release-agent.cpuset",
+            "clone_children"
+          ]
+        },
+        "/dev/sda2,/var/lib/docker/aufs": {
+          "device": "/dev/sda2",
+          "mount": "/var/lib/docker/aufs",
+          "fs_type": "ext4",
+          "mount_options": [
+            "rw",
+            "relatime",
+            "data=ordered"
+          ]
+        },
+        "shm,/var/lib/docker/containers/79120bc8c9e7d57bc251e34e85eb284620ca1c7ddb22a00b929e84ad6dfa0e4a/shm": {
+          "device": "shm",
+          "mount": "/var/lib/docker/containers/79120bc8c9e7d57bc251e34e85eb284620ca1c7ddb22a00b929e84ad6dfa0e4a/shm",
+          "fs_type": "tmpfs",
+          "mount_options": [
+            "rw",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "relatime",
+            "size=65536k"
+          ]
+        },
+        "proc,/run/docker/netns/18e607f47f67": {
+          "device": "proc",
+          "mount": "/run/docker/netns/18e607f47f67",
+          "fs_type": "proc",
+          "mount_options": [
+            "rw",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "relatime"
+          ]
+        },
+        "shm,/var/lib/docker/containers/62092b77e2ac3d2d833271fed590a14415f32ebc2215fa3b4ffe6ca5db707a69/shm": {
+          "device": "shm",
+          "mount": "/var/lib/docker/containers/62092b77e2ac3d2d833271fed590a14415f32ebc2215fa3b4ffe6ca5db707a69/shm",
+          "fs_type": "tmpfs",
+          "mount_options": [
+            "rw",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "relatime",
+            "size=65536k"
+          ]
+        },
+        "proc,/run/docker/netns/70396bb94687": {
+          "device": "proc",
+          "mount": "/run/docker/netns/70396bb94687",
+          "fs_type": "proc",
+          "mount_options": [
+            "rw",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "relatime"
+          ]
+        }
+      }
+    },
+    "init_package": "init",
+    "ohai_time": 1466714714.498053,
+    "block_device": {
+      "sda": {
+        "size": "976773168",
+        "removable": "0",
+        "model": "WDC WD5000LPVT-7",
+        "rev": "01.0",
+        "state": "running",
+        "timeout": "30",
+        "vendor": "ATA",
+        "queue_depth": "31",
+        "rotational": "1"
+      },
+      "sdb": {
+        "size": "62533296",
+        "removable": "0",
+        "model": "Micron C400 Real",
+        "rev": "01MG",
+        "state": "running",
+        "timeout": "30",
+        "vendor": "ATA",
+        "queue_depth": "31",
+        "rotational": "0"
+      },
+      "sdc": {
+        "size": "0",
+        "removable": "1",
+        "model": "xD/SD/M.S.",
+        "rev": "1.00",
+        "state": "running",
+        "timeout": "30",
+        "vendor": "Generic-",
+        "queue_depth": "1",
+        "rotational": "1"
+      },
+      "sr0": {
+        "size": "2097151",
+        "removable": "1",
+        "model": "DVD+-RW GU70N",
+        "rev": "A102",
+        "state": "running",
+        "timeout": "30",
+        "vendor": "HL-DT-ST",
+        "queue_depth": "1",
+        "rotational": "1"
+      },
+      "ram0": {
+        "size": "131072",
+        "removable": "0",
+        "rotational": "1"
+      },
+      "ram1": {
+        "size": "131072",
+        "removable": "0",
+        "rotational": "1"
+      },
+      "ram2": {
+        "size": "131072",
+        "removable": "0",
+        "rotational": "1"
+      },
+      "ram3": {
+        "size": "131072",
+        "removable": "0",
+        "rotational": "1"
+      },
+      "ram4": {
+        "size": "131072",
+        "removable": "0",
+        "rotational": "1"
+      },
+      "ram5": {
+        "size": "131072",
+        "removable": "0",
+        "rotational": "1"
+      },
+      "ram6": {
+        "size": "131072",
+        "removable": "0",
+        "rotational": "1"
+      },
+      "ram7": {
+        "size": "131072",
+        "removable": "0",
+        "rotational": "1"
+      },
+      "ram8": {
+        "size": "131072",
+        "removable": "0",
+        "rotational": "1"
+      },
+      "ram9": {
+        "size": "131072",
+        "removable": "0",
+        "rotational": "1"
+      },
+      "loop0": {
+        "size": "0",
+        "removable": "0",
+        "rotational": "1"
+      },
+      "loop1": {
+        "size": "0",
+        "removable": "0",
+        "rotational": "1"
+      },
+      "loop2": {
+        "size": "0",
+        "removable": "0",
+        "rotational": "1"
+      },
+      "loop3": {
+        "size": "0",
+        "removable": "0",
+        "rotational": "1"
+      },
+      "loop4": {
+        "size": "0",
+        "removable": "0",
+        "rotational": "1"
+      },
+      "loop5": {
+        "size": "0",
+        "removable": "0",
+        "rotational": "1"
+      },
+      "loop6": {
+        "size": "0",
+        "removable": "0",
+        "rotational": "1"
+      },
+      "loop7": {
+        "size": "0",
+        "removable": "0",
+        "rotational": "1"
+      },
+      "ram10": {
+        "size": "131072",
+        "removable": "0",
+        "rotational": "1"
+      },
+      "ram11": {
+        "size": "131072",
+        "removable": "0",
+        "rotational": "1"
+      },
+      "ram12": {
+        "size": "131072",
+        "removable": "0",
+        "rotational": "1"
+      },
+      "ram13": {
+        "size": "131072",
+        "removable": "0",
+        "rotational": "1"
+      },
+      "ram14": {
+        "size": "131072",
+        "removable": "0",
+        "rotational": "1"
+      },
+      "ram15": {
+        "size": "131072",
+        "removable": "0",
+        "rotational": "1"
+      }
+    },
+    "sessions": {
+      "by_session": {
+
+      },
+      "by_user": {
+
+      }
+    },
+    "etc": {
+      "passwd": {
+        "root": {
+          "dir": "/root",
+          "gid": 0,
+          "uid": 0,
+          "shell": "/bin/bash",
+          "gecos": "root"
+        },
+        "daemon": {
+          "dir": "/usr/sbin",
+          "gid": 1,
+          "uid": 1,
+          "shell": "/usr/sbin/nologin",
+          "gecos": "daemon"
+        },
+        "bin": {
+          "dir": "/bin",
+          "gid": 2,
+          "uid": 2,
+          "shell": "/usr/sbin/nologin",
+          "gecos": "bin"
+        },
+        "sys": {
+          "dir": "/dev",
+          "gid": 3,
+          "uid": 3,
+          "shell": "/usr/sbin/nologin",
+          "gecos": "sys"
+        },
+        "sync": {
+          "dir": "/bin",
+          "gid": 65534,
+          "uid": 4,
+          "shell": "/bin/sync",
+          "gecos": "sync"
+        },
+        "games": {
+          "dir": "/usr/games",
+          "gid": 60,
+          "uid": 5,
+          "shell": "/usr/sbin/nologin",
+          "gecos": "games"
+        },
+        "man": {
+          "dir": "/var/cache/man",
+          "gid": 12,
+          "uid": 6,
+          "shell": "/usr/sbin/nologin",
+          "gecos": "man"
+        },
+        "lp": {
+          "dir": "/var/spool/lpd",
+          "gid": 7,
+          "uid": 7,
+          "shell": "/usr/sbin/nologin",
+          "gecos": "lp"
+        },
+        "mail": {
+          "dir": "/var/mail",
+          "gid": 8,
+          "uid": 8,
+          "shell": "/usr/sbin/nologin",
+          "gecos": "mail"
+        },
+        "news": {
+          "dir": "/var/spool/news",
+          "gid": 9,
+          "uid": 9,
+          "shell": "/usr/sbin/nologin",
+          "gecos": "news"
+        },
+        "uucp": {
+          "dir": "/var/spool/uucp",
+          "gid": 10,
+          "uid": 10,
+          "shell": "/usr/sbin/nologin",
+          "gecos": "uucp"
+        },
+        "proxy": {
+          "dir": "/bin",
+          "gid": 13,
+          "uid": 13,
+          "shell": "/usr/sbin/nologin",
+          "gecos": "proxy"
+        },
+        "www-data": {
+          "dir": "/var/www",
+          "gid": 33,
+          "uid": 33,
+          "shell": "/usr/sbin/nologin",
+          "gecos": "www-data"
+        },
+        "backup": {
+          "dir": "/var/backups",
+          "gid": 34,
+          "uid": 34,
+          "shell": "/usr/sbin/nologin",
+          "gecos": "backup"
+        },
+        "list": {
+          "dir": "/var/list",
+          "gid": 38,
+          "uid": 38,
+          "shell": "/usr/sbin/nologin",
+          "gecos": "Mailing List Manager"
+        },
+        "irc": {
+          "dir": "/var/run/ircd",
+          "gid": 39,
+          "uid": 39,
+          "shell": "/usr/sbin/nologin",
+          "gecos": "ircd"
+        },
+        "gnats": {
+          "dir": "/var/lib/gnats",
+          "gid": 41,
+          "uid": 41,
+          "shell": "/usr/sbin/nologin",
+          "gecos": "Gnats Bug-Reporting System (admin)"
+        },
+        "nobody": {
+          "dir": "/nonexistent",
+          "gid": 65534,
+          "uid": 65534,
+          "shell": "/usr/sbin/nologin",
+          "gecos": "nobody"
+        },
+        "libuuid": {
+          "dir": "/var/lib/libuuid",
+          "gid": 101,
+          "uid": 100,
+          "shell": "",
+          "gecos": ""
+        },
+        "syslog": {
+          "dir": "/home/syslog",
+          "gid": 104,
+          "uid": 101,
+          "shell": "/bin/false",
+          "gecos": ""
+        },
+        "messagebus": {
+          "dir": "/var/run/dbus",
+          "gid": 106,
+          "uid": 102,
+          "shell": "/bin/false",
+          "gecos": ""
+        },
+        "usbmux": {
+          "dir": "/home/usbmux",
+          "gid": 46,
+          "uid": 103,
+          "shell": "/bin/false",
+          "gecos": "usbmux daemon,,,"
+        },
+        "dnsmasq": {
+          "dir": "/var/lib/misc",
+          "gid": 65534,
+          "uid": 104,
+          "shell": "/bin/false",
+          "gecos": "dnsmasq,,,"
+        },
+        "avahi-autoipd": {
+          "dir": "/var/lib/avahi-autoipd",
+          "gid": 113,
+          "uid": 105,
+          "shell": "/bin/false",
+          "gecos": "Avahi autoip daemon,,,"
+        },
+        "kernoops": {
+          "dir": "/",
+          "gid": 65534,
+          "uid": 106,
+          "shell": "/bin/false",
+          "gecos": "Kernel Oops Tracking Daemon,,,"
+        },
+        "rtkit": {
+          "dir": "/proc",
+          "gid": 114,
+          "uid": 107,
+          "shell": "/bin/false",
+          "gecos": "RealtimeKit,,,"
+        },
+        "saned": {
+          "dir": "/home/saned",
+          "gid": 115,
+          "uid": 108,
+          "shell": "/bin/false",
+          "gecos": ""
+        },
+        "whoopsie": {
+          "dir": "/nonexistent",
+          "gid": 116,
+          "uid": 109,
+          "shell": "/bin/false",
+          "gecos": ""
+        },
+        "speech-dispatcher": {
+          "dir": "/var/run/speech-dispatcher",
+          "gid": 29,
+          "uid": 110,
+          "shell": "/bin/sh",
+          "gecos": "Speech Dispatcher,,,"
+        },
+        "avahi": {
+          "dir": "/var/run/avahi-daemon",
+          "gid": 117,
+          "uid": 111,
+          "shell": "/bin/false",
+          "gecos": "Avahi mDNS daemon,,,"
+        },
+        "lightdm": {
+          "dir": "/var/lib/lightdm",
+          "gid": 118,
+          "uid": 112,
+          "shell": "/bin/false",
+          "gecos": "Light Display Manager"
+        },
+        "colord": {
+          "dir": "/var/lib/colord",
+          "gid": 121,
+          "uid": 113,
+          "shell": "/bin/false",
+          "gecos": "colord colour management daemon,,,"
+        },
+        "hplip": {
+          "dir": "/var/run/hplip",
+          "gid": 7,
+          "uid": 114,
+          "shell": "/bin/false",
+          "gecos": "HPLIP system user,,,"
+        },
+        "pulse": {
+          "dir": "/var/run/pulse",
+          "gid": 122,
+          "uid": 115,
+          "shell": "/bin/false",
+          "gecos": "PulseAudio daemon,,,"
+        },
+        "car": {
+          "dir": "/home/car",
+          "gid": 1000,
+          "uid": 1000,
+          "shell": "/bin/bash",
+          "gecos": "Christian Rodriguez,,,"
+        },
+        "gdm": {
+          "dir": "/var/lib/gdm",
+          "gid": 125,
+          "uid": 116,
+          "shell": "/bin/false",
+          "gecos": "Gnome Display Manager"
+        },
+        "sshd": {
+          "dir": "/var/run/sshd",
+          "gid": 65534,
+          "uid": 117,
+          "shell": "/usr/sbin/nologin",
+          "gecos": ""
+        },
+        "mysql": {
+          "dir": "/nonexistent",
+          "gid": 126,
+          "uid": 118,
+          "shell": "/bin/false",
+          "gecos": "MySQL Server,,,"
+        },
+        "redis": {
+          "dir": "/var/lib/redis",
+          "gid": 127,
+          "uid": 119,
+          "shell": "/bin/false",
+          "gecos": "redis server,,,"
+        },
+        "mongodb": {
+          "dir": "/home/mongodb",
+          "gid": 65534,
+          "uid": 120,
+          "shell": "/bin/false",
+          "gecos": ""
+        },
+        "lxc-dnsmasq": {
+          "dir": "/var/lib/lxc",
+          "gid": 132,
+          "uid": 121,
+          "shell": "/bin/false",
+          "gecos": "LXC dnsmasq,,,"
+        },
+        "statd": {
+          "dir": "/var/lib/nfs",
+          "gid": 65534,
+          "uid": 122,
+          "shell": "/bin/false",
+          "gecos": ""
+        },
+        "vdr": {
+          "dir": "/var/lib/vdr",
+          "gid": 133,
+          "uid": 123,
+          "shell": "/bin/false",
+          "gecos": "VDR user,,,"
+        },
+        "ntp": {
+          "dir": "/home/ntp",
+          "gid": 135,
+          "uid": 124,
+          "shell": "/bin/false",
+          "gecos": ""
+        },
+        "openldap": {
+          "dir": "/var/lib/ldap",
+          "gid": 136,
+          "uid": 125,
+          "shell": "/bin/false",
+          "gecos": "OpenLDAP Server Account,,,"
+        },
+        "libvirt-qemu": {
+          "dir": "/var/lib/libvirt",
+          "gid": 137,
+          "uid": 126,
+          "shell": "/bin/false",
+          "gecos": "Libvirt Qemu,,,"
+        },
+        "libvirt-dnsmasq": {
+          "dir": "/var/lib/libvirt/dnsmasq",
+          "gid": 138,
+          "uid": 127,
+          "shell": "/bin/false",
+          "gecos": "Libvirt Dnsmasq,,,"
+        },
+        "bind": {
+          "dir": "/var/cache/bind",
+          "gid": 139,
+          "uid": 128,
+          "shell": "/bin/false",
+          "gecos": ""
+        }
+      },
+      "group": {
+        "root": {
+          "gid": 0,
+          "members": [
+
+          ]
+        },
+        "daemon": {
+          "gid": 1,
+          "members": [
+
+          ]
+        },
+        "bin": {
+          "gid": 2,
+          "members": [
+
+          ]
+        },
+        "sys": {
+          "gid": 3,
+          "members": [
+
+          ]
+        },
+        "adm": {
+          "gid": 4,
+          "members": [
+            "syslog",
+            "car"
+          ]
+        },
+        "tty": {
+          "gid": 5,
+          "members": [
+
+          ]
+        },
+        "disk": {
+          "gid": 6,
+          "members": [
+
+          ]
+        },
+        "lp": {
+          "gid": 7,
+          "members": [
+
+          ]
+        },
+        "mail": {
+          "gid": 8,
+          "members": [
+
+          ]
+        },
+        "news": {
+          "gid": 9,
+          "members": [
+
+          ]
+        },
+        "uucp": {
+          "gid": 10,
+          "members": [
+
+          ]
+        },
+        "man": {
+          "gid": 12,
+          "members": [
+
+          ]
+        },
+        "proxy": {
+          "gid": 13,
+          "members": [
+
+          ]
+        },
+        "kmem": {
+          "gid": 15,
+          "members": [
+
+          ]
+        },
+        "dialout": {
+          "gid": 20,
+          "members": [
+
+          ]
+        },
+        "fax": {
+          "gid": 21,
+          "members": [
+
+          ]
+        },
+        "voice": {
+          "gid": 22,
+          "members": [
+
+          ]
+        },
+        "cdrom": {
+          "gid": 24,
+          "members": [
+            "car"
+          ]
+        },
+        "floppy": {
+          "gid": 25,
+          "members": [
+
+          ]
+        },
+        "tape": {
+          "gid": 26,
+          "members": [
+
+          ]
+        },
+        "sudo": {
+          "gid": 27,
+          "members": [
+            "car"
+          ]
+        },
+        "audio": {
+          "gid": 29,
+          "members": [
+            "pulse"
+          ]
+        },
+        "dip": {
+          "gid": 30,
+          "members": [
+            "car"
+          ]
+        },
+        "www-data": {
+          "gid": 33,
+          "members": [
+
+          ]
+        },
+        "backup": {
+          "gid": 34,
+          "members": [
+
+          ]
+        },
+        "operator": {
+          "gid": 37,
+          "members": [
+
+          ]
+        },
+        "list": {
+          "gid": 38,
+          "members": [
+
+          ]
+        },
+        "irc": {
+          "gid": 39,
+          "members": [
+
+          ]
+        },
+        "src": {
+          "gid": 40,
+          "members": [
+
+          ]
+        },
+        "gnats": {
+          "gid": 41,
+          "members": [
+
+          ]
+        },
+        "shadow": {
+          "gid": 42,
+          "members": [
+
+          ]
+        },
+        "utmp": {
+          "gid": 43,
+          "members": [
+
+          ]
+        },
+        "video": {
+          "gid": 44,
+          "members": [
+            "vdr"
+          ]
+        },
+        "sasl": {
+          "gid": 45,
+          "members": [
+
+          ]
+        },
+        "plugdev": {
+          "gid": 46,
+          "members": [
+            "car"
+          ]
+        },
+        "staff": {
+          "gid": 50,
+          "members": [
+
+          ]
+        },
+        "games": {
+          "gid": 60,
+          "members": [
+
+          ]
+        },
+        "users": {
+          "gid": 100,
+          "members": [
+
+          ]
+        },
+        "nogroup": {
+          "gid": 65534,
+          "members": [
+
+          ]
+        },
+        "libuuid": {
+          "gid": 101,
+          "members": [
+
+          ]
+        },
+        "netdev": {
+          "gid": 102,
+          "members": [
+
+          ]
+        },
+        "crontab": {
+          "gid": 103,
+          "members": [
+
+          ]
+        },
+        "syslog": {
+          "gid": 104,
+          "members": [
+
+          ]
+        },
+        "fuse": {
+          "gid": 105,
+          "members": [
+
+          ]
+        },
+        "messagebus": {
+          "gid": 106,
+          "members": [
+
+          ]
+        },
+        "ssl-cert": {
+          "gid": 107,
+          "members": [
+
+          ]
+        },
+        "lpadmin": {
+          "gid": 108,
+          "members": [
+            "car"
+          ]
+        },
+        "scanner": {
+          "gid": 109,
+          "members": [
+            "saned"
+          ]
+        },
+        "mlocate": {
+          "gid": 110,
+          "members": [
+
+          ]
+        },
+        "ssh": {
+          "gid": 111,
+          "members": [
+
+          ]
+        },
+        "utempter": {
+          "gid": 112,
+          "members": [
+
+          ]
+        },
+        "avahi-autoipd": {
+          "gid": 113,
+          "members": [
+
+          ]
+        },
+        "rtkit": {
+          "gid": 114,
+          "members": [
+
+          ]
+        },
+        "saned": {
+          "gid": 115,
+          "members": [
+
+          ]
+        },
+        "whoopsie": {
+          "gid": 116,
+          "members": [
+
+          ]
+        },
+        "avahi": {
+          "gid": 117,
+          "members": [
+
+          ]
+        },
+        "lightdm": {
+          "gid": 118,
+          "members": [
+
+          ]
+        },
+        "nopasswdlogin": {
+          "gid": 119,
+          "members": [
+
+          ]
+        },
+        "bluetooth": {
+          "gid": 120,
+          "members": [
+
+          ]
+        },
+        "colord": {
+          "gid": 121,
+          "members": [
+
+          ]
+        },
+        "pulse": {
+          "gid": 122,
+          "members": [
+
+          ]
+        },
+        "pulse-access": {
+          "gid": 123,
+          "members": [
+
+          ]
+        },
+        "car": {
+          "gid": 1000,
+          "members": [
+
+          ]
+        },
+        "sambashare": {
+          "gid": 124,
+          "members": [
+            "car"
+          ]
+        },
+        "gdm": {
+          "gid": 125,
+          "members": [
+
+          ]
+        },
+        "mysql": {
+          "gid": 126,
+          "members": [
+
+          ]
+        },
+        "redis": {
+          "gid": 127,
+          "members": [
+
+          ]
+        },
+        "mongodb": {
+          "gid": 128,
+          "members": [
+            "mongodb"
+          ]
+        },
+        "docker": {
+          "gid": 129,
+          "members": [
+            "car"
+          ]
+        },
+        "winbindd_priv": {
+          "gid": 130,
+          "members": [
+
+          ]
+        },
+        "vboxusers": {
+          "gid": 131,
+          "members": [
+
+          ]
+        },
+        "lxc-dnsmasq": {
+          "gid": 132,
+          "members": [
+
+          ]
+        },
+        "vdr": {
+          "gid": 133,
+          "members": [
+
+          ]
+        },
+        "_cvsadmin": {
+          "gid": 134,
+          "members": [
+
+          ]
+        },
+        "ntp": {
+          "gid": 135,
+          "members": [
+
+          ]
+        },
+        "openldap": {
+          "gid": 136,
+          "members": [
+
+          ]
+        },
+        "kvm": {
+          "gid": 137,
+          "members": [
+
+          ]
+        },
+        "libvirtd": {
+          "gid": 138,
+          "members": [
+            "car"
+          ]
+        },
+        "bind": {
+          "gid": 139,
+          "members": [
+
+          ]
+        }
+      }
+    },
+    "current_user": "car",
+    "recipes": [
+      "my-infra::chef",
+      "my-infra::aws",
+      "my-infra::delete"
+    ],
+    "expanded_run_list": [
+      "my-infra::chef",
+      "my-infra::aws",
+      "my-infra::delete"
+    ],
+    "roles": [
+
+    ],
+    "cookbooks": {
+      "my-infra": {
+        "version": "0.1.0"
+      }
+    }
+  },
+  "run_list": [
+    "recipe[my-infra::chef]",
+    "recipe[my-infra::aws]",
+    "recipe[my-infra::delete]"
+  ]
+}

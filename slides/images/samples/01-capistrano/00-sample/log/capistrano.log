@@ -1,0 +1,49 @@
+# Logfile created on 2016-06-19 13:59:45 -0300 by logger.rb/53141
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-06-19 13:59:45 -0300 cap production uptime
+  INFO ---------------------------------------------------------------------------
+ DEBUG [d0705162] Running /usr/bin/env uptime on localhost
+ DEBUG [7da0a6d9] Running /usr/bin/env uptime on 33.33.33.10
+ DEBUG [d0705162] Command: /usr/bin/env uptime
+ DEBUG [7da0a6d9] Command: /usr/bin/env uptime
+ DEBUG [d0705162] 	 13:59:50 up  3:38,  7 users,  load average: 0,75, 0,50, 0,38
+ DEBUG [d0705162] Finished in 5.179 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-06-19 14:01:01 -0300 cap production uptime
+  INFO ---------------------------------------------------------------------------
+ DEBUG [dded3596] Running /usr/bin/env uptime on localhost
+ DEBUG [bf3a0e35] Running /usr/bin/env uptime on 33.33.33.10
+ DEBUG [dded3596] Command: /usr/bin/env uptime
+ DEBUG [bf3a0e35] Command: /usr/bin/env uptime
+ DEBUG [dded3596] 	 14:01:02 up  3:39,  7 users,  load average: 0,59, 0,54, 0,41
+ DEBUG [dded3596] Finished in 0.872 seconds with exit status 0 (successful).
+ DEBUG [bf3a0e35] 	 17:01:02 up  2:33,  0 users,  load average: 0.00, 0.01, 0.05
+ DEBUG [bf3a0e35] Finished in 1.079 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-06-23 05:51:58 -0300 cap production doctor:variables
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-06-23 05:53:55 -0300 cap production
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-06-23 05:54:06 -0300 cap production uptime
+  INFO ---------------------------------------------------------------------------
+ DEBUG [2a15867d] Running /usr/bin/env uptime on localhost
+ DEBUG [2a15867d] Command: /usr/bin/env uptime
+ DEBUG [5a59e310] Running /usr/bin/env uptime on 33.33.33.10
+ DEBUG [5a59e310] Command: /usr/bin/env uptime
+ DEBUG [5a59e310] 	 08:54:08 up 37 min,  0 users,  load average: 0.08, 0.19, 0.48
+ DEBUG [5a59e310] Finished in 2.361 seconds with exit status 0 (successful).
+ DEBUG [2a15867d] 	 05:54:15 up 3 days, 19:32,  4 users,  load average: 0,74, 1,37, 2,27
+ DEBUG [2a15867d] Finished in 8.406 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-06-23 15:03:02 -0300 cap production uptime
+  INFO ---------------------------------------------------------------------------
+ DEBUG [fa01377a] Running /usr/bin/env uptime on localhost
+ DEBUG [fa01377a] Command: /usr/bin/env uptime
+ DEBUG [e5a2eba1] Running /usr/bin/env uptime on 33.33.33.10
+ DEBUG [e5a2eba1] Command: /usr/bin/env uptime
+ DEBUG [e5a2eba1] 	 18:03:02 up  7:25,  0 users,  load average: 0.00, 0.01, 0.05
+ DEBUG [e5a2eba1] Finished in 0.344 seconds with exit status 0 (successful).
+ DEBUG [fa01377a] 	 15:03:02 up 4 days,  4:41,  7 users,  load average: 0,49, 0,33, 0,28
+ DEBUG [fa01377a] Finished in 0.907 seconds with exit status 0 (successful).
