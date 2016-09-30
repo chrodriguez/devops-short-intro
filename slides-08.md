@@ -10,7 +10,7 @@ y ciertamente amplio
 **Básicamente DevOps promueve:**
 </small>
 <div class="fragment">
-*Maximizar la colaboratividad entre las áreas de desarrollo e infraestructura*
+*Maximizar la colaboración entre las áreas de desarrollo e infraestructura*
 </div>
 ---
 ## Objetivo
