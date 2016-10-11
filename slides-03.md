@@ -1,34 +1,6 @@
 ***
 # La perspectiva de desarrollo
 ---
-## La perspectiva de desarrollo
-
-* Ambientes complejos:
-  * Arquitecturas de N capas
-  * Micro servicios
-  * Muchas *inter*dependencias en un desarrollo moderno
-* Gestión de los proyectos: procedimientos y flujos de trabajo
-* La forma en que se deployan nuevos productos o actualizan versiones
-* Usando metodologías ágiles se maximiza la velocidad de nuevos releases.
-  * Ésto impulsa nuevos deployments en algún ambiente (testing, staging, QA) o
-  directamente en producción
----
-## La perspectiva de desarrollo
-
-* Si se aplica TDD, se requiere mantener una infraestructura donde los
-  tests contribuyan con la gestión de los proyectos
-  * Que los tests pasen antes de un merge
-  * Integración continua
-* Lenguajes y herramientas modernas disponibles en el ambiente de desarrollo pero
-  diferentes en producción
-* Gestión de versiones
-  * [Semantic Versioning](http://semver.org/) para el código
-  * ¿Qué pasa con la base de datos?
-* Replicar el ambiente de producción para analizar problemas, así como probar
-  una actualización de versiones
-* Necesidad de estadísticas y monitoreo
-
----
 ### Ambientes complejos
 * Las aplicaciones ya no son las tradicionales arquitecturas de tres capas
 * Las herramientas a utilizar ya no sólo se conforman de **un** lenguaje,
@@ -73,22 +45,22 @@
     Ansible, Chef, Puppet, Salt, etc
 ---
 ### Metodologías Ágiles
-* El [manifiesto ágil](http://www.agilemanifesto.org/iso/es/) hace énfasis en
+* El [manifiesto ágil](http://agilemanifesto.org/iso/es/manifesto.html) hace énfasis en
   los siguientes valores:
-  * Individuos e interacciones
-  * Software funcionando
-  * Colaboración con el cliente
-  * Respuesta ante el cambio
+  * **Individuos e interacciones** *sobre procesos y herramientas*
+  * **Software funcionando** *sobre documentación extensiva*
+  * **Colaboración con el cliente** *sobre negociación contractual*
+  * **Respuesta ante el cambio** *sobre seguir un plan*
 * Aplicando esta metodología se promueve lanzar nuevas versiones en períodos muy
-  cortos de tiempo, lo cuál termina manifestando un cuello de botella en las
-  oficinas de IT.
+  cortos de tiempo:
+  * Aparecen deployments diarios e incluso varias veces al día
   * Responder a los requerimientos ágiles requiere una operatoria ágil desde IT
-  * Empiezan a darse deployments con frecuencias diarias e incluso varios al día
+      * Si esto no sucede se produce un cuello de botella
 ---
 ### TDD
 
-* Cuando elevamos los requerimientos de QA es bueno aplicar tests
-* Los tests deben controlarse por QA, en cada etapa del desarrollo, estableciendo
+* Cuando deseamos apegarnos a los requisitos de QA es bueno aplicar tests
+* Los tests deben controlarse por un área de QA en cada etapa del desarrollo, estableciendo
   políticas de aceptación para cada etapa
 ---
 ### TDD

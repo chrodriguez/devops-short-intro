@@ -123,8 +123,8 @@ automatización
 * El área de infraestructura tiene que atender otras muchas cuestiones como por
 ejemplo:
   * Vencimientos de certificados
-  * Gestión de SPAM para evitar la llegada, así como el bloque de nuestros MTA
-    por el envío de SPAM desde nuestros servidores
+  * Gestión de SPAM para evitar la llegada, así como el bloqueo de nuestros MTA
+    para el envío de SPAM desde nuestros servidores
   * Problemas de hardware habituales
   * Pruebas de restauración de backups
   * Migraciones de datos entre productos. Por ejemplo, una organización pudo

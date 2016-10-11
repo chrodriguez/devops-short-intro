@@ -10,6 +10,7 @@
   software
   * Empecé con Devops en 2012
   * [Capacitación sobre chef 2013](http://chrodriguez.github.io/capacitacion_chef/)
+* Trabajos freelance de IT
 ---
 ## Contribuciones al SL
 
@@ -24,5 +25,17 @@
 * Varias recetas de chef
 * Varias gemas de ruby
 * Plugins para Symfony 1.x
+
+---
+## Experiencia relevante en la temática
+
+* Gestión de la infraestructura: email y web en SMN (2005 al 2007)
+* Consultoría en SENASA (2007 a la fecha)
+  * Definición e implementación de un LDAP replicado e integrado con AD
+  * Implementación de SSO
+  * Arquitectura, implementación y mantenimiento del email
+* Portal del diario El Día (2012 a la fecha)
+  * Arquitectura y desarrollo del producto
+  * Diseño de la arquitectura inicial de su infraestructura
 
 ***
