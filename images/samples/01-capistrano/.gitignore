@@ -18,3 +18,5 @@ bin/*
 .kitchen/
 .kitchen.local.yml
 00-sample/log/capistrano.log
+01-jekyll/log/capistrano.log
+02-wordpress/log/capistrano.log
