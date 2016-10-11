@@ -1,6 +1,9 @@
 ***
 #DevOps 
 ##Una breve introducción
+<small>
+https://chrodriguez.github.io/devops-short-intro/
+</small>
 ---
 ## Agenda
 
