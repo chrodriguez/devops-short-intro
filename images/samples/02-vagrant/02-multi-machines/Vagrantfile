@@ -1,0 +1,39 @@
+Vagrant.configure(2) do |config|
+
+  config.vm.define 'master', primary: true do |app|
+    app.vm.box = "chef/ubuntu-14.04"
+    app.vm.box_check_update = false
+    app.vm.network "private_network", ip: "33.33.35.10"
+    app.vm.hostname = 'master'
+
+    app.vm.provision "docker" do |d|
+      d.run "consul",
+        cmd: "agent -server -bootstrap -advertise 33.33.35.10 -client 0.0.0.0",
+        args: "-p 8300:8300 -p 8301:8301 -p 8301:8301/udp -p 8302:8302/udp -p 8302:8302 -p 8400:8400 -p 8500:8500 -p 8600:8600 -p 8600:8600/udp"
+      d.run "swarm",
+        cmd: "manage -H tcp://0.0.0.0:4000 consul://33.33.35.10:8500/swarm",
+        args: "-p 4000:4000"
+
+    end
+  end
+
+  (1..3).each do |num|
+    config.vm.define "node-#{num}" do |app|
+      app.vm.hostname = "node-#{num}"
+      app.vm.box = "chef/ubuntu-14.04"
+      app.vm.box_check_update = false
+      app.vm.network "private_network", ip: "33.33.35.1#{num}"
+
+
+      app.vm.provision "docker" do |d|
+        d.run "swarm",
+          cmd: "join --advertise=33.33.35.1#{num}:2375 consul://33.33.35.10:8500/swarm"
+      end
+
+      app.vm.provision "shell", inline: <<-SHELL
+        sed -i.bak 's@^#DOCKER_OPTS=.*@DOCKER_OPTS="-H tcp://0.0.0.0:2375 -H unix:///var/run/docker.sock"@' /etc/default/docker
+        service docker restart
+      SHELL
+    end
+  end
+end

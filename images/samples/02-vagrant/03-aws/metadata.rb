@@ -1,0 +1,11 @@
+name             'my_rancher'
+maintainer       'YOUR_NAME'
+maintainer_email 'YOUR_EMAIL'
+license          'All rights reserved'
+description      'Installs/Configures my_rancher'
+long_description 'Installs/Configures my_rancher'
+version          '1.0.0'
+
+depends 'apt'
+depends 'chef-apt-docker', '~> 1.0.0'
+depends 'docker', '~> 2.0'
