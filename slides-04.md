@@ -1,26 +1,6 @@
 ***
 # La perspectiva de infraestructura
 ---
-## La perspectiva de infraestructura
-<small>
-Los ejemplos expuestos no son aplicables a todos los casos, sino una enumeración
-de problemas habituales en las áreas de infraestructura
-</small>
-
-* Según el tipo de organización, este área puede atender servicios críticos
-  como: DNS, Mail, Web institucional, comunicaciones, virtualización, gestión de
-  usuarios vía SQL/LDAP/ADS
-* Varias organizaciones gestionan sus servicios en forma manual
----
-## La perspectiva de infraestructura
-* El área de desarrollo es un área más a la que se le brinda servicio
-* Las políticas de homogeneizar lenguajes, frameworks, servicios o cualquier
-  herramienta informática han fracasado en pos de arquitecturas heterogéneas
-* Atender la seguridad que se ve comprometida cuando se permite el hosting
-  manipulado por el área de desarrollo
-* Política de backups clara para los servicios pero no para las aplicaciones
-* Estadísticas y monitoreo de servicios, pero no aplicaciones
----
 ### Servicios críticos
 * Hoy día, servicios como el DNS o Mail se consideran funcionales per se.
 * En el caso del DNS, utilizar TTL pequeños promueve la resilencia
@@ -51,7 +31,7 @@ automatización
 ---
 ### El cliente más demandante: desarrollo
 * El área de desarrollo es un área más a la que se le brinda servicio
-* Entre los servicio ofrecidos, pueden mencionarse:
+* Entre los servicios ofrecidos, pueden mencionarse:
   * **Hosteo de aplicaciones:** infraestructura deja un hueco donde desarrollo
     puede subir código. Se debe determinar la forma en que se dan los accesos y
     a qué se da acceso

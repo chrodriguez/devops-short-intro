@@ -16,7 +16,7 @@
 * Se deben estipular una serie de pasos que deben seguirse:
   * La aplicación corre con un usuario determinado
   * Se debe crear una estructura de directorio previa
-  * Instalación de servicios que son requisito para el funcionamiento
+  * Instalación de servicios que son requeridos
       * Rotación de logs
       * Servicios asincrónicos
       * Creación de usuarios y bases de datos necesarios

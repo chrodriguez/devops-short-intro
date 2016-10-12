@@ -46,7 +46,7 @@ y ciertamente amplio
 ---
 ## Caracterización
 
-* DevOps es un movimiento , filosofía o práctica
+* DevOps es un movimiento, filosofía o práctica
 * Que se ajusta perfectamente a las metodologías ágiles
   * Extiende y completa el proceso de integración y deployment continuo asegurando
     que el código esté listo para producción agregando valor para los clientes 
@@ -86,7 +86,7 @@ Existen diversos productos que promueven IaC
 </table>
 ---
 ## Test de la infraestructura
-* Con las herraminetas anteriores es posible realizar tests de la
+* Con las herramientas anteriores es posible realizar tests de la
   infraestructura:
   * Tests de unidad:
       * [rspec-puppet](http://rspec-puppet.com/)
@@ -128,7 +128,7 @@ tests de **unidad e integración**
   * Esto se automatiza con herramientas de CI que *escuchan* cada commit en el
     SCM
 ---
-## Herraminetas de CI
+## Herramientas de CI
 
 * [Travis](https://travis-ci.org/)
 * [Semaphore](https://semaphoreci.com/)
